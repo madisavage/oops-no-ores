@@ -3,4 +3,6 @@ minecraft/*
 !minecraft/config
 !minecraft/configureddefaults
 !minecraft/defaultconfigs
-!minecraft/scriptss
+!minecraft/kubejs
+*.tmp
+oculus.properties

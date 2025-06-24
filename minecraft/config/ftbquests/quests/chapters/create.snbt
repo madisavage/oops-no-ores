@@ -1,0 +1,360 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create"
+	group: ""
+	id: "5ADC5FC8ED2CC679"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "5863B9ED241DA11A"
+			tasks: [{
+				id: "67192B116F110587"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			title: "Andesite Alloy: The Hard Way"
+			x: 2.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["5863B9ED241DA11A"]
+			id: "23303269751CADAC"
+			tasks: [{
+				id: "2D59958A29F67933"
+				item: "create:encased_fan"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"5863B9ED241DA11A"
+				"50B4ADD97E2FF669"
+			]
+			id: "7BF7BEDE3D1C91F5"
+			tasks: [{
+				id: "17E4D98F92706F15"
+				item: "create:water_wheel"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["23303269751CADAC"]
+			id: "7AD697444410825F"
+			tasks: [
+				{
+					id: "0027A978278D1A6F"
+					item: "minecraft:gravel"
+					type: "item"
+				}
+				{
+					id: "29A5BEF7D1509791"
+					item: "minecraft:iron_nugget"
+					type: "item"
+				}
+			]
+			title: "Washing Recipes"
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			id: "50B4ADD97E2FF669"
+			tasks: [{
+				id: "1053C6EA1CBE74C2"
+				title: "Running Water"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["7AD697444410825F"]
+			id: "2C3FC8F11140FA00"
+			optional: true
+			tasks: [{
+				id: "1C4FE1C2BCEC7399"
+				item: "minecraft:bucket"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["17EF8EB157DE12AF"]
+			id: "6C0577A334D32697"
+			tasks: [
+				{
+					id: "4ECDD34B3B2E11EA"
+					item: "create:mechanical_press"
+					type: "item"
+				}
+				{
+					id: "62285E9C92E7757C"
+					item: "create:basin"
+					type: "item"
+				}
+				{
+					id: "6FAE43502DF39CE4"
+					item: "create:depot"
+					type: "item"
+				}
+			]
+			title: "A Pressing Matter"
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7AD697444410825F"]
+			id: "17EF8EB157DE12AF"
+			tasks: [{
+				id: "29DC0667289161E0"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			title: "Cheaper Alloy"
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			id: "5154B0320FBA666A"
+			tasks: [{
+				id: "2DCDEBD3AC177F61"
+				item: "naturesaura:gold_leaf"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["23303269751CADAC"]
+			id: "75D1339A44C13CDB"
+			optional: true
+			tasks: [
+				{
+					id: "066CB2F3EC06C8A6"
+					item: "minecraft:red_sand"
+					type: "item"
+				}
+				{
+					id: "633EDCC945F48DE4"
+					item: "minecraft:gold_nugget"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"1336779CEB3A34D7"
+				"75D1339A44C13CDB"
+			]
+			dependency_requirement: "one_completed"
+			id: "56506EDF2AF99C8E"
+			tasks: [{
+				id: "56006449C58D140A"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5154B0320FBA666A"]
+			id: "1336779CEB3A34D7"
+			tasks: [{
+				id: "19DA11E752B32027"
+				item: "naturesaura:gold_powder"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["56506EDF2AF99C8E"]
+			id: "02D47C8EC7BB61E6"
+			tasks: [{
+				id: "461B969294BC1D21"
+				item: "naturesaura:nature_altar"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["02D47C8EC7BB61E6"]
+			id: "03314C4421DF18FF"
+			optional: true
+			tasks: [{
+				id: "0FB1FD80E8B953AF"
+				item: "minecraft:lapis_lazuli"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"4BAD780E8825D4B8"
+				"03314C4421DF18FF"
+			]
+			dependency_requirement: "one_completed"
+			id: "16EEFF6CAA94801F"
+			tasks: [{
+				id: "543A6C3AAF9C49DE"
+				item: "ars_nouveau:source_gem"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -2.5d
+		}
+		{
+			id: "4BAD780E8825D4B8"
+			optional: true
+			tasks: [{
+				id: "5BAB0F0C024A1EA3"
+				item: "minecraft:amethyst_shard"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["02D47C8EC7BB61E6"]
+			id: "4FCF5C9A0258C78B"
+			tasks: [{
+				id: "18BED04FA933B816"
+				item: "minecraft:coal"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["16EEFF6CAA94801F"]
+			id: "40AB4082C225B2CA"
+			tasks: [
+				{
+					id: "307F99819B97BFBA"
+					item: "ars_nouveau:enchanting_apparatus"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "6430A71A53C22B19"
+					item: { Count: 4, id: "ars_nouveau:arcane_pedestal" }
+					type: "item"
+				}
+			]
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["40AB4082C225B2CA"]
+			id: "117021F22F22E525"
+			tasks: [
+				{
+					id: "006B38844089A28C"
+					item: "ars_nouveau:conjuration_essence"
+					type: "item"
+				}
+				{
+					id: "74CA34BF3906CAF1"
+					item: "minecraft:soul_sand"
+					type: "item"
+				}
+				{
+					id: "63659C1A60A01C02"
+					item: "minecraft:end_stone"
+					type: "item"
+				}
+			]
+			x: -5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["117021F22F22E525"]
+			id: "41C3E182BA6CCF81"
+			optional: true
+			tasks: [{
+				id: "7AF1816F57DB9316"
+				item: "minecraft:soul_campfire"
+				type: "item"
+			}]
+			title: "Bulk Haunting"
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["117021F22F22E525"]
+			id: "2D5FB8ACBA873DC7"
+			tasks: [{
+				id: "5D80A81D6E353A7D"
+				item: "minecraft:quartz"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"117021F22F22E525"
+				"4FCF5C9A0258C78B"
+			]
+			id: "25898843CACC224C"
+			tasks: [{
+				id: "70099A8283564858"
+				item: "create:blaze_burner"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6C0577A334D32697"]
+			id: "58CB7AC57E614EF5"
+			tasks: [{
+				id: "6EC97AF3A6FBC410"
+				item: "create:mechanical_mixer"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6C0577A334D32697"]
+			id: "459996FBDD4D6F5F"
+			tasks: [{
+				id: "646CAC48BA5F5308"
+				item: "create:copper_nugget"
+				type: "item"
+			}]
+			title: "Rudimentary Copper and Zinc"
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"459996FBDD4D6F5F"
+				"58CB7AC57E614EF5"
+				"25898843CACC224C"
+			]
+			id: "7192E33C01B68F59"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "320C3A2E72FCB852"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.0d
+		}
+	]
+	title: "Chapter One"
+}
