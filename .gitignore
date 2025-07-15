@@ -6,3 +6,7 @@ minecraft/*
 !minecraft/kubejs
 *.tmp
 oculus.properties
+instance.cfg
+minecraft/config/packetfixer.properties
+minecraft/config/oculus.properties
+minecraft/config/indigo-renderer.properties

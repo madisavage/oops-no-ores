@@ -1,0 +1,20 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_tres"
+	group: ""
+	id: "6F352D9E75FC6331"
+	order_index: 4
+	quest_links: [ ]
+	quests: [{
+		id: "376D3A06F73D1797"
+		tasks: [{
+			id: "46A80A8E1BF689DC"
+			item: "ae2:controller"
+			type: "item"
+		}]
+		x: 3.5d
+		y: 1.5d
+	}]
+	title: "Chapter Tres"
+}

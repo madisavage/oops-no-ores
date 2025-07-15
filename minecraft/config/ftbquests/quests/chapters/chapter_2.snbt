@@ -1,0 +1,653 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_2"
+	group: ""
+	id: "00AB27A998BFCFB1"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "6B9754247B44B7A7"
+			tasks: [{
+				count: 21L
+				id: "1814388DC2D0C3D1"
+				item: "create:mechanical_crafter"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6B9754247B44B7A7"]
+			id: "48DBEC28B0C7F9F2"
+			tasks: [{
+				count: 2L
+				id: "05489CD103770DF5"
+				item: "create:crushing_wheel"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["48DBEC28B0C7F9F2"]
+			id: "739B8311E57FF04D"
+			tasks: [{
+				id: "3CBCF3669871DE25"
+				item: "minecraft:diorite"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["739B8311E57FF04D"]
+			id: "06CA76BD54A512AD"
+			tasks: [{
+				id: "1D65668A84F1CD05"
+				item: "minecraft:quartz"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["48DBEC28B0C7F9F2"]
+			id: "78B0C469C95B86A5"
+			tasks: [{
+				id: "104B5B7241835FD9"
+				item: "minecraft:tuff"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["78B0C469C95B86A5"]
+			id: "412051B72A953BE0"
+			tasks: [
+				{
+					id: "59906012577F4030"
+					item: "create:zinc_nugget"
+					type: "item"
+				}
+				{
+					id: "610D7581504D4089"
+					item: "create:copper_nugget"
+					type: "item"
+				}
+				{
+					id: "3BC46A313C6CBEEB"
+					item: "minecraft:iron_nugget"
+					type: "item"
+				}
+				{
+					id: "37EBC1B585C4A74F"
+					item: "createaddition:electrum_nugget"
+					type: "item"
+				}
+				{
+					id: "69F869B8E96B5928"
+					item: "minecraft:gold_nugget"
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["48DBEC28B0C7F9F2"]
+			id: "76D8AA996ED2798C"
+			tasks: [{
+				id: "34D4EAE3CFAD4C58"
+				item: "create:asurine"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["76D8AA996ED2798C"]
+			id: "06CBB167E787A63B"
+			tasks: [{
+				id: "12067E6DE324E999"
+				item: "create:crushed_raw_zinc"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["48DBEC28B0C7F9F2"]
+			id: "7E4DBAA931922A0F"
+			tasks: [{
+				id: "1C774FBE9E89EFD4"
+				item: "create:crimsite"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7E4DBAA931922A0F"]
+			id: "0B59F9A8AAD0DF8D"
+			tasks: [{
+				id: "2B7BFEEE1B7531E1"
+				item: "create:crushed_raw_iron"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["48DBEC28B0C7F9F2"]
+			id: "5F1E4BB277F8A5AD"
+			tasks: [{
+				id: "153A9FCAD3394CD2"
+				item: "create:veridium"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5F1E4BB277F8A5AD"]
+			id: "03F968539369FACF"
+			tasks: [{
+				id: "40C5DC741FEB5FF8"
+				item: "create:crushed_raw_copper"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["48DBEC28B0C7F9F2"]
+			id: "284B61B880A5FA30"
+			tasks: [{
+				id: "571F0CA543E38E03"
+				item: "minecraft:calcite"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["284B61B880A5FA30"]
+			id: "207945AB569A4C9D"
+			tasks: [{
+				id: "141343435D2217D6"
+				item: "minecraft:bone_meal"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["48DBEC28B0C7F9F2"]
+			id: "3AA1B8F6053D7D5D"
+			tasks: [{
+				id: "040A3FF2E1CD99B2"
+				item: "minecraft:dripstone_block"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3AA1B8F6053D7D5D"]
+			id: "493F8133E824A948"
+			tasks: [{
+				id: "52A4AA59F11BC03F"
+				item: "minecraft:clay_ball"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.5d
+		}
+		{
+			id: "6440E0CB46BFB505"
+			tasks: [{
+				id: "7DFA083BC98B7B5B"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.5d
+		}
+		{
+			id: "7DE35D640BF2D6CC"
+			tasks: [{
+				id: "140D446E12219E58"
+				item: "create:scoria"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.5d
+		}
+		{
+			id: "3DE397B22A3AFFF3"
+			tasks: [{
+				id: "3B73A4A0BF52B2E1"
+				item: "create:ochrum"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.5d
+		}
+		{
+			id: "714FD2137E3D3B18"
+			tasks: [{
+				id: "77DBAFE161C1F14D"
+				item: "minecraft:lapis_lazuli"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			id: "41B51FAE5D8DA72B"
+			tasks: [{
+				id: "5952DCC1CF5A16D2"
+				item: "create:limestone"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 0.5d
+		}
+		{
+			id: "200098781D1A80C5"
+			tasks: [{
+				id: "4AB13C2285CF3180"
+				item: "create:scorchia"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 2.0d
+		}
+		{
+			id: "28AF8D02EF1A0277"
+			tasks: [{
+				id: "1486396BBEEB29A3"
+				item: "minecraft:glowstone_dust"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.5d
+		}
+		{
+			id: "7447315242506D30"
+			tasks: [{
+				id: "1BB5763EA2A9CE5C"
+				item: "create:crushed_raw_gold"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 3.5d
+		}
+		{
+			id: "3E72EE7BFE887C2F"
+			tasks: [{
+				id: "14029321C995B285"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 3.5d
+		}
+		{
+			hide_dependent_lines: true
+			id: "5C8294982941AAC8"
+			rewards: [{
+				id: "3CD4799DA92B08AD"
+				item: "dimpaintings:overworld_painting"
+				type: "item"
+			}]
+			tasks: [{
+				id: "250BD8D6A38CD6C1"
+				item: "dimpaintings:nether_painting"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 6.0d
+		}
+		{
+			id: "256FF1EFEEF0AE06"
+			tasks: [{
+				id: "35871A4122A96C6E"
+				item: "create:crushed_raw_uranium"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			id: "0FBDF8EEC1153966"
+			tasks: [{
+				id: "3A485E87BA872472"
+				item: "minecraft:coal"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5C8294982941AAC8"]
+			id: "49FAE4F290FF3486"
+			tasks: [{
+				id: "02AC6BA7008B826F"
+				item: "minecraft:basalt"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 0.5d
+		}
+		{
+			id: "24AB32F53A2C3C21"
+			tasks: [{
+				id: "780C5C7E131A476C"
+				item: "create:crushed_raw_silver"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3E72EE7BFE887C2F"]
+			id: "2725F903A1FA72BA"
+			tasks: [{
+				id: "363DD3CEE25A43A9"
+				item: "naturesaura:sky_ingot"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["7B5FF0CD55987833"]
+			id: "7E955C56787745BF"
+			tasks: [{
+				id: "3E990BEB55D9BE74"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_1_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["3ECC3B483B665F27"]
+			id: "7B5FF0CD55987833"
+			tasks: [{
+				id: "10846D5D82B2C0CC"
+				item: "mekanism:ingot_steel"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 14.0d
+		}
+		{
+			id: "11F15D36E0F7E448"
+			tasks: [{
+				id: "6183305C96CB8174"
+				title: "todo kill iron sword nest recipes"
+				type: "checkmark"
+			}]
+			x: 11.0d
+			y: 8.0d
+		}
+		{
+			id: "3FA715914DFFE9E3"
+			tasks: [{
+				id: "369EB628AAB62E71"
+				item: {
+					Count: 1
+					id: "productivebees:spawn_egg_configurable_bee"
+					tag: {
+						EntityTag: {
+							type: "productivebees:iron"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: 9.5d
+		}
+		{
+			id: "0C6B66704E3026B7"
+			tasks: [{
+				id: "101ED3D50D3834E3"
+				item: {
+					Count: 1
+					id: "productivebees:spawn_egg_configurable_bee"
+					tag: {
+						EntityTag: {
+							type: "productivebees:copper"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: 9.5d
+		}
+		{
+			id: "4FDD5B3A40EB361F"
+			tasks: [{
+				id: "1C36DFB53252C672"
+				item: {
+					Count: 1
+					id: "productivebees:spawn_egg_configurable_bee"
+					tag: {
+						EntityTag: {
+							type: "productivebees:lapis"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 9.5d
+		}
+		{
+			icon: "immersiveengineering:blast_furnace"
+			id: "3ECC3B483B665F27"
+			tasks: [{
+				count: 27L
+				id: "50F62CD43EBE29F9"
+				item: "immersiveengineering:blastbrick"
+				type: "item"
+			}]
+			title: "Sad Times"
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			id: "78639944EDB5E897"
+			tasks: [{
+				id: "6FCEE7D2E9B637FB"
+				title: "aluminium"
+				type: "checkmark"
+			}]
+			x: -7.5d
+			y: 3.5d
+		}
+		{
+			id: "3BF7EB20665DBF23"
+			tasks: [{
+				id: "0DC9B198E5881251"
+				item: "create:crushed_raw_silver"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 4.5d
+		}
+		{
+			id: "2D6A3DFAAA054DB0"
+			tasks: [
+				{
+					id: "0EE288413EF4C41B"
+					item: "mysticalagriculture:infusion_pedestal"
+					type: "item"
+				}
+				{
+					id: "28E29F08B7E08C18"
+					item: "mysticalagriculture:infusion_altar"
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: 7.5d
+		}
+		{
+			id: "084F11A074226369"
+			tasks: [{
+				id: "122FD269FC4F955C"
+				item: "mysticalagriculture:stone_seeds"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 9.5d
+		}
+		{
+			id: "0373E4BA690F68CD"
+			tasks: [{
+				id: "537D89240AB98000"
+				item: "mysticalagriculture:inferium_seeds"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 9.5d
+		}
+		{
+			id: "3FFF104B2AC8238C"
+			tasks: [{
+				id: "013BE399FC55AA85"
+				item: "mysticalagriculture:dirt_seeds"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 9.5d
+		}
+		{
+			id: "753DA5A94F567A68"
+			tasks: [{
+				id: "68A193318E18E736"
+				item: "mysticalagriculture:wood_seeds"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 9.5d
+		}
+		{
+			id: "76D0630CD6137C89"
+			tasks: [{
+				id: "652FD31C641B77B5"
+				item: "mysticalagriculture:deepslate_seeds"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 9.5d
+		}
+		{
+			id: "0FC7EB5E7D6FBEFA"
+			tasks: [{
+				id: "198C4959158BC3CC"
+				item: "mysticalagriculture:air_seeds"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 7.0d
+		}
+		{
+			id: "3AF0674E2EAE597E"
+			tasks: [{
+				id: "4E8CA50F60AC66EC"
+				item: "mysticalagriculture:earth_seeds"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 8.0d
+		}
+		{
+			id: "20A54F7DC3E26487"
+			tasks: [{
+				id: "0C6272EC441F4303"
+				item: "mysticalagriculture:water_seeds"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 7.0d
+		}
+		{
+			id: "54BCF3A4D01938C3"
+			tasks: [{
+				id: "21E048236BA7C013"
+				item: "mysticalagriculture:fire_seeds"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 8.0d
+		}
+		{
+			id: "0DE0CE4B0515D2C9"
+			tasks: [{
+				id: "1C19C660C81434E1"
+				item: "mysticalagriculture:inferium_essence"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			id: "744E73C1C88A4D87"
+			tasks: [{
+				id: "3A7F287498A1F76F"
+				item: "mysticalagriculture:prosperity_shard"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7B5FF0CD55987833"]
+			icon: "immersiveengineering:advanced_blast_furnace"
+			id: "50A631F0F333D77A"
+			tasks: [
+				{
+					count: 27L
+					id: "23B1637BBB72491D"
+					item: "immersiveengineering:blastbrick_reinforced"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "37F305FE4BC26123"
+					item: "immersiveengineering:blastfurnace_preheater"
+					type: "item"
+				}
+			]
+			title: "Happy Times"
+			x: 0.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["7B5FF0CD55987833"]
+			id: "35B4CF3BD7866706"
+			optional: true
+			tasks: [{
+				id: "4F90D9E90E86AD6E"
+				item: "immersiveengineering:excavator"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 17.0d
+		}
+	]
+	title: "Chapter 2"
+}

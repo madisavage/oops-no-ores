@@ -85,7 +85,7 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["17EF8EB157DE12AF"]
+			dependencies: ["7AD697444410825F"]
 			id: "6C0577A334D32697"
 			tasks: [
 				{
@@ -106,10 +106,10 @@
 			]
 			title: "A Pressing Matter"
 			x: 2.0d
-			y: -1.0d
+			y: -2.5d
 		}
 		{
-			dependencies: ["7AD697444410825F"]
+			dependencies: ["6C0577A334D32697"]
 			id: "17EF8EB157DE12AF"
 			tasks: [{
 				id: "29DC0667289161E0"
@@ -121,6 +121,7 @@
 			y: -2.5d
 		}
 		{
+			dependencies: ["4AE03F3AB528A99A"]
 			id: "5154B0320FBA666A"
 			tasks: [{
 				id: "2DCDEBD3AC177F61"
@@ -128,7 +129,7 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: -8.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["23303269751CADAC"]
@@ -141,8 +142,8 @@
 					type: "item"
 				}
 				{
-					id: "633EDCC945F48DE4"
-					item: "minecraft:gold_nugget"
+					id: "0F30E69B4CB1F8E6"
+					item: "minecraft:redstone"
 					type: "item"
 				}
 			]
@@ -150,10 +151,7 @@
 			y: -4.0d
 		}
 		{
-			dependencies: [
-				"1336779CEB3A34D7"
-				"75D1339A44C13CDB"
-			]
+			dependencies: ["1336779CEB3A34D7"]
 			dependency_requirement: "one_completed"
 			id: "56506EDF2AF99C8E"
 			tasks: [{
@@ -173,10 +171,13 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: -6.5d
+			y: -5.5d
 		}
 		{
-			dependencies: ["56506EDF2AF99C8E"]
+			dependencies: [
+				"56506EDF2AF99C8E"
+				"3F427656E6BD3D44"
+			]
 			id: "02D47C8EC7BB61E6"
 			tasks: [{
 				id: "461B969294BC1D21"
@@ -287,7 +288,7 @@
 				type: "item"
 			}]
 			title: "Bulk Haunting"
-			x: -3.5d
+			x: -6.5d
 			y: 0.5d
 		}
 		{
@@ -298,8 +299,8 @@
 				item: "minecraft:quartz"
 				type: "item"
 			}]
-			x: -6.5d
-			y: 1.5d
+			x: -4.0d
+			y: 0.5d
 		}
 		{
 			dependencies: [
@@ -329,11 +330,18 @@
 		{
 			dependencies: ["6C0577A334D32697"]
 			id: "459996FBDD4D6F5F"
-			tasks: [{
-				id: "646CAC48BA5F5308"
-				item: "create:copper_nugget"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "646CAC48BA5F5308"
+					item: "create:copper_nugget"
+					type: "item"
+				}
+				{
+					id: "1C15BBED95843A43"
+					item: "create:zinc_nugget"
+					type: "item"
+				}
+			]
 			title: "Rudimentary Copper and Zinc"
 			x: 2.0d
 			y: 2.5d
@@ -354,6 +362,74 @@
 			}]
 			x: -1.5d
 			y: 4.0d
+		}
+		{
+			id: "4AE03F3AB528A99A"
+			subtitle: "Wait for it to spread to leaves and turn them gold"
+			tasks: [{
+				id: "1343EC1F2F5F69A6"
+				item: "naturesaura:gold_fiber"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -8.5d
+		}
+		{
+			id: "3F427656E6BD3D44"
+			tasks: [{
+				id: "52B6744841EF73E8"
+				item: "create:ochrum"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"2D5FB8ACBA873DC7"
+				"75D1339A44C13CDB"
+			]
+			id: "085CA449C2360CD4"
+			shape: "gear"
+			tasks: [{
+				id: "06A0BD02D9F8531E"
+				item: "create:polished_rose_quartz"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5863B9ED241DA11A"]
+			id: "28060E3922059262"
+			optional: true
+			tasks: [{
+				id: "2682B88C757B1A1D"
+				item: "create:millstone"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -5.5d
+		}
+		{
+			id: "2A7194229E5BA67E"
+			tasks: [{
+				id: "4C8D1F8F38CDF2D4"
+				item: "productivebees:spawn_egg_quarry_bee"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			id: "23FE45E8CDAB35EF"
+			tasks: [{
+				id: "0B396046E974BB96"
+				item: "botania:orechid"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 3.5d
 		}
 	]
 	title: "Chapter One"
