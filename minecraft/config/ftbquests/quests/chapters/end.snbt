@@ -1,0 +1,102 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "end"
+	group: ""
+	id: "199E8E53754BCF10"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			id: "50460F207D4CD77D"
+			tasks: [{
+				id: "7C6327DD1114C1ED"
+				item: "functionalstorage:creative_vending_upgrade"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "0EF2B1F32BF7F756"
+			tasks: [{
+				id: "02124EA1654621BD"
+				item: "botania:gaia_ingot"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.5d
+		}
+		{
+			id: "4AB28EF4C19E240E"
+			tasks: [{
+				id: "08A01286CB05261B"
+				item: "ars_elemental:mark_of_mastery"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.5d
+		}
+		{
+			id: "28C7361318DB40B1"
+			tasks: [{
+				id: "022901B8829F3F7D"
+				item: "ae2:singularity"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			id: "4069049E52874F31"
+			tasks: [{
+				id: "0AB8862AECB39FC3"
+				item: "mekanism:pellet_antimatter"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -5.5d
+		}
+		{
+			id: "2BE75468C5424CAC"
+			tasks: [{
+				id: "67D26975278ABE2C"
+				item: "iceandfire:dragonsteel_lightning_ingot"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -5.5d
+		}
+		{
+			id: "0EDA6EB516B75C08"
+			tasks: [{
+				id: "5001161E0AED0CA0"
+				item: "mysticalagradditions:insanium_essence"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -5.5d
+		}
+		{
+			id: "4DF292EBA085929F"
+			tasks: [{
+				id: "42D54AD1754CA683"
+				item: "bloodmagic:etherealslate"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -7.5d
+		}
+		{
+			id: "2F5A5DE183F0D43D"
+			tasks: [{
+				id: "57E638664C71BC67"
+				item: "productivebees:upgrade_productivity_4"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -7.5d
+		}
+	]
+	title: "End"
+}
