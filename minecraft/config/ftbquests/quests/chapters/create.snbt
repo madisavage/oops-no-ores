@@ -421,16 +421,6 @@
 			x: 4.5d
 			y: -3.0d
 		}
-		{
-			id: "23FE45E8CDAB35EF"
-			tasks: [{
-				id: "0B396046E974BB96"
-				item: "botania:orechid"
-				type: "item"
-			}]
-			x: 9.0d
-			y: 3.5d
-		}
 	]
 	title: "Chapter One"
 }

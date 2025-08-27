@@ -6,15 +6,154 @@
 	id: "6F352D9E75FC6331"
 	order_index: 4
 	quest_links: [ ]
-	quests: [{
-		id: "376D3A06F73D1797"
-		tasks: [{
-			id: "46A80A8E1BF689DC"
-			item: "ae2:controller"
-			type: "item"
-		}]
-		x: 3.5d
-		y: 1.5d
-	}]
+	quests: [
+		{
+			id: "376D3A06F73D1797"
+			tasks: [{
+				id: "46A80A8E1BF689DC"
+				item: "ae2:controller"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			id: "4BFB4114CB6E2005"
+			tasks: [{
+				id: "6D232CA6965097A4"
+				item: "bloodmagic:altar"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			id: "14736862B81B52D9"
+			tasks: [{
+				id: "0ED1FF9BA230006F"
+				item: "mekanism:steel_casing"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			id: "405A5CD941111523"
+			tasks: [{
+				id: "57688459B29E56FB"
+				title: "todo put ae2 meteors on moon"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			id: "2D6A3DFAAA054DB0"
+			tasks: [
+				{
+					id: "0EE288413EF4C41B"
+					item: "mysticalagriculture:infusion_pedestal"
+					type: "item"
+				}
+				{
+					id: "28E29F08B7E08C18"
+					item: "mysticalagriculture:infusion_altar"
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: 2.0d
+		}
+		{
+			id: "084F11A074226369"
+			tasks: [{
+				id: "122FD269FC4F955C"
+				item: "mysticalagriculture:stone_seeds"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			id: "0373E4BA690F68CD"
+			tasks: [{
+				id: "537D89240AB98000"
+				item: "mysticalagriculture:inferium_seeds"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 4.0d
+		}
+		{
+			id: "3FFF104B2AC8238C"
+			tasks: [{
+				id: "013BE399FC55AA85"
+				item: "mysticalagriculture:dirt_seeds"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 4.0d
+		}
+		{
+			id: "753DA5A94F567A68"
+			tasks: [{
+				id: "68A193318E18E736"
+				item: "mysticalagriculture:wood_seeds"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			id: "76D0630CD6137C89"
+			tasks: [{
+				id: "652FD31C641B77B5"
+				item: "mysticalagriculture:deepslate_seeds"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 4.0d
+		}
+		{
+			id: "0FC7EB5E7D6FBEFA"
+			tasks: [{
+				id: "198C4959158BC3CC"
+				item: "mysticalagriculture:air_seeds"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.5d
+		}
+		{
+			id: "3AF0674E2EAE597E"
+			tasks: [{
+				id: "4E8CA50F60AC66EC"
+				item: "mysticalagriculture:earth_seeds"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 2.5d
+		}
+		{
+			id: "20A54F7DC3E26487"
+			tasks: [{
+				id: "0C6272EC441F4303"
+				item: "mysticalagriculture:water_seeds"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			id: "54BCF3A4D01938C3"
+			tasks: [{
+				id: "21E048236BA7C013"
+				item: "mysticalagriculture:fire_seeds"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.5d
+		}
+	]
 	title: "Chapter Tres"
 }

@@ -267,14 +267,15 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["5C8294982941AAC8"]
 			id: "28AF8D02EF1A0277"
 			tasks: [{
 				id: "1486396BBEEB29A3"
 				item: "minecraft:glowstone_dust"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 4.5d
+			x: 9.5d
+			y: 8.5d
 		}
 		{
 			id: "7447315242506D30"
@@ -297,6 +298,7 @@
 			y: 3.5d
 		}
 		{
+			dependencies: ["3E72EE7BFE887C2F"]
 			hide_dependent_lines: true
 			id: "5C8294982941AAC8"
 			rewards: [{
@@ -365,7 +367,10 @@
 			y: 14.0d
 		}
 		{
-			dependencies: ["7B5FF0CD55987833"]
+			dependencies: [
+				"7B5FF0CD55987833"
+				"2725F903A1FA72BA"
+			]
 			id: "7E955C56787745BF"
 			tasks: [{
 				id: "3E990BEB55D9BE74"
@@ -376,11 +381,14 @@
 				}
 				type: "item"
 			}]
-			x: 6.5d
+			x: 5.5d
 			y: 16.0d
 		}
 		{
-			dependencies: ["3ECC3B483B665F27"]
+			dependencies: [
+				"23F87E98E29B8239"
+				"3ECC3B483B665F27"
+			]
 			id: "7B5FF0CD55987833"
 			tasks: [{
 				id: "10846D5D82B2C0CC"
@@ -389,70 +397,6 @@
 			}]
 			x: 5.0d
 			y: 14.0d
-		}
-		{
-			id: "11F15D36E0F7E448"
-			tasks: [{
-				id: "6183305C96CB8174"
-				title: "todo kill iron sword nest recipes"
-				type: "checkmark"
-			}]
-			x: 11.0d
-			y: 8.0d
-		}
-		{
-			id: "3FA715914DFFE9E3"
-			tasks: [{
-				id: "369EB628AAB62E71"
-				item: {
-					Count: 1
-					id: "productivebees:spawn_egg_configurable_bee"
-					tag: {
-						EntityTag: {
-							type: "productivebees:iron"
-						}
-					}
-				}
-				type: "item"
-			}]
-			x: 9.5d
-			y: 9.5d
-		}
-		{
-			id: "0C6B66704E3026B7"
-			tasks: [{
-				id: "101ED3D50D3834E3"
-				item: {
-					Count: 1
-					id: "productivebees:spawn_egg_configurable_bee"
-					tag: {
-						EntityTag: {
-							type: "productivebees:copper"
-						}
-					}
-				}
-				type: "item"
-			}]
-			x: 11.0d
-			y: 9.5d
-		}
-		{
-			id: "4FDD5B3A40EB361F"
-			tasks: [{
-				id: "1C36DFB53252C672"
-				item: {
-					Count: 1
-					id: "productivebees:spawn_egg_configurable_bee"
-					tag: {
-						EntityTag: {
-							type: "productivebees:lapis"
-						}
-					}
-				}
-				type: "item"
-			}]
-			x: 8.0d
-			y: 9.5d
 		}
 		{
 			icon: "immersiveengineering:blast_furnace"
@@ -464,8 +408,8 @@
 				type: "item"
 			}]
 			title: "Sad Times"
-			x: 0.0d
-			y: 9.0d
+			x: 5.0d
+			y: 7.5d
 		}
 		{
 			id: "78639944EDB5E897"
@@ -486,113 +430,6 @@
 			}]
 			x: 9.5d
 			y: 4.5d
-		}
-		{
-			id: "2D6A3DFAAA054DB0"
-			tasks: [
-				{
-					id: "0EE288413EF4C41B"
-					item: "mysticalagriculture:infusion_pedestal"
-					type: "item"
-				}
-				{
-					id: "28E29F08B7E08C18"
-					item: "mysticalagriculture:infusion_altar"
-					type: "item"
-				}
-			]
-			x: -6.0d
-			y: 7.5d
-		}
-		{
-			id: "084F11A074226369"
-			tasks: [{
-				id: "122FD269FC4F955C"
-				item: "mysticalagriculture:stone_seeds"
-				type: "item"
-			}]
-			x: -5.0d
-			y: 9.5d
-		}
-		{
-			id: "0373E4BA690F68CD"
-			tasks: [{
-				id: "537D89240AB98000"
-				item: "mysticalagriculture:inferium_seeds"
-				type: "item"
-			}]
-			x: -7.0d
-			y: 9.5d
-		}
-		{
-			id: "3FFF104B2AC8238C"
-			tasks: [{
-				id: "013BE399FC55AA85"
-				item: "mysticalagriculture:dirt_seeds"
-				type: "item"
-			}]
-			x: -6.0d
-			y: 9.5d
-		}
-		{
-			id: "753DA5A94F567A68"
-			tasks: [{
-				id: "68A193318E18E736"
-				item: "mysticalagriculture:wood_seeds"
-				type: "item"
-			}]
-			x: -4.0d
-			y: 9.5d
-		}
-		{
-			id: "76D0630CD6137C89"
-			tasks: [{
-				id: "652FD31C641B77B5"
-				item: "mysticalagriculture:deepslate_seeds"
-				type: "item"
-			}]
-			x: -8.0d
-			y: 9.5d
-		}
-		{
-			id: "0FC7EB5E7D6FBEFA"
-			tasks: [{
-				id: "198C4959158BC3CC"
-				item: "mysticalagriculture:air_seeds"
-				type: "item"
-			}]
-			x: -7.0d
-			y: 7.0d
-		}
-		{
-			id: "3AF0674E2EAE597E"
-			tasks: [{
-				id: "4E8CA50F60AC66EC"
-				item: "mysticalagriculture:earth_seeds"
-				type: "item"
-			}]
-			x: -7.0d
-			y: 8.0d
-		}
-		{
-			id: "20A54F7DC3E26487"
-			tasks: [{
-				id: "0C6272EC441F4303"
-				item: "mysticalagriculture:water_seeds"
-				type: "item"
-			}]
-			x: -5.0d
-			y: 7.0d
-		}
-		{
-			id: "54BCF3A4D01938C3"
-			tasks: [{
-				id: "21E048236BA7C013"
-				item: "mysticalagriculture:fire_seeds"
-				type: "item"
-			}]
-			x: -5.0d
-			y: 8.0d
 		}
 		{
 			id: "0DE0CE4B0515D2C9"
@@ -633,20 +470,53 @@
 				}
 			]
 			title: "Happy Times"
-			x: 0.0d
+			x: 4.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["7E955C56787745BF"]
+			id: "6F9E9B5632EB8D1C"
+			tasks: [{
+				id: "5F4AEC993F9016CD"
+				title: "tell player ae2 meteors on moon"
+				type: "checkmark"
+			}]
+			x: 5.5d
+			y: 18.0d
+		}
+		{
+			id: "23F87E98E29B8239"
+			tasks: [{
+				id: "4AF2C34A52027889"
+				observe_type: 5
+				optional_task: true
+				timer: 0L
+				to_observe: "productive_bees:steel_bee"
+				type: "observation"
+			}]
+			x: 2.5d
 			y: 14.0d
 		}
 		{
-			dependencies: ["7B5FF0CD55987833"]
-			id: "35B4CF3BD7866706"
-			optional: true
+			id: "443CAAD35144789B"
 			tasks: [{
-				id: "4F90D9E90E86AD6E"
-				item: "immersiveengineering:excavator"
+				id: "55598E85335CCF31"
+				title: "todo connect this shit"
+				type: "checkmark"
+			}]
+			x: 9.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["28AF8D02EF1A0277"]
+			id: "174D73ABF637A148"
+			tasks: [{
+				id: "7256C1319C7C3924"
+				item: "botania:apothecary_default"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 17.0d
+			x: 9.5d
+			y: 11.0d
 		}
 	]
 	title: "Chapter 2"

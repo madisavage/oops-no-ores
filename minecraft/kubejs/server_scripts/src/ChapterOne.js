@@ -13,6 +13,7 @@ ServerEvents.recipes((event) => {
         "4x minecraft:andesite",
     ]);
     // TODO disable create: netherless soul sand recipe; I can't see the recipe ids for some reason so need to come back for these single recipe removes
+    
     // natures aura altar lapis recipe
     event.custom({
         type: "naturesaura:altar",
@@ -64,6 +65,7 @@ ServerEvents.recipes((event) => {
         A: "#forge:plates/iron",
         B: "create:andesite_alloy",
     });
+
 
     event.remove({ output: "naturesaura:conversion_catalyst" });
     event.custom({
