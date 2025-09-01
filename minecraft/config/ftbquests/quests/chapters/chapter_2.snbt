@@ -518,6 +518,26 @@
 			x: 9.5d
 			y: 11.0d
 		}
+		{
+			id: "371A20A269CEA9DF"
+			tasks: [{
+				id: "2115A29D23D8C741"
+				title: "TODO remove immersive engineering ores"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 9.0d
+		}
+		{
+			id: "7A221B507E2B31C2"
+			tasks: [{
+				id: "157FB0820DCD7EEC"
+				title: "todo add immersive engineering ores"
+				type: "checkmark"
+			}]
+			x: 11.0d
+			y: -1.5d
+		}
 	]
 	title: "Chapter 2"
 }
