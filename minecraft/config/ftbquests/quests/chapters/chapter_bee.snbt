@@ -1,0 +1,42 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_bee"
+	group: ""
+	id: "64FCA4A76EA2D17E"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "0C44B928D3264AC9"
+			tasks: [{
+				id: "0463004C8AA4950D"
+				item: "minecraft:beehive"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			id: "5178B33C75CD4457"
+			tasks: [{
+				id: "674EC70F3FFD659C"
+				title: "this is not actually where bees start"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			id: "2A7194229E5BA67E"
+			tasks: [{
+				id: "4C8D1F8F38CDF2D4"
+				item: "productivebees:spawn_egg_quarry_bee"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -0.5d
+		}
+	]
+	title: "Chapter B(ee)"
+}

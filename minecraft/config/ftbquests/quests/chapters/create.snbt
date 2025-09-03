@@ -412,14 +412,15 @@
 			y: -5.5d
 		}
 		{
-			id: "2A7194229E5BA67E"
+			id: "32FAFAFF2E5F4012"
+			subtitle: "You can begin the Bees chapter im-bee-diately"
 			tasks: [{
-				id: "4C8D1F8F38CDF2D4"
-				item: "productivebees:spawn_egg_quarry_bee"
-				type: "item"
+				id: "507186092E14686C"
+				title: "Bees"
+				type: "checkmark"
 			}]
-			x: 4.5d
-			y: -3.0d
+			x: -5.5d
+			y: -8.5d
 		}
 	]
 	title: "Chapter One"

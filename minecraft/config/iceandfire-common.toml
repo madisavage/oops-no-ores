@@ -18,7 +18,7 @@
 		"Dragon Den Gold Amount" = 4
 		#Ratio of Stone(this number) to Ores in Dragon Caves
 		#Range: 1 ~ 10000
-		"Dragon Cave Ore Ratio" = 45
+		"Dragon Cave Ore Ratio" = 10000
 
 	[Generation.Structures-Features]
 		#How far away dangerous structures(dragon roosts, cyclops caves, etc.) must be from spawn.
@@ -44,7 +44,7 @@
 	[Dragons.Griefing]
 		#Dragon griefing - 2 is no griefing, 1 is breaking weak blocks, 0 is default. This value is also affected by minecrafts mob griefing rule.
 		#Range: 0 ~ 2
-		"Dragon Griefing" = 0
+		"Dragon Griefing" = 2
 		#True if tamed dragons can follow the griefing rules.
 		"Tamed Dragon Griefing" = true
 		#The percentage chance for a block to drop as an item when a dragon breaks it.
@@ -88,7 +88,7 @@
 		"Max Dragon Flight Height" = 256
 		#How far away dragons will detect gold blocks being destroyed or chests being opened
 		#Range: 0 ~ 10000
-		"Dragon Gold Search Length" = 30
+		"Dragon Gold Search Length" = 100
 		#Whether the bite attack from a dragon heals them or not.
 		"Dragon Bite Heal" = true
 		#True if dragons can despawn. Note that if this is false there may be SERIOUS lag issues.
@@ -203,7 +203,7 @@
 		"Spawn Cockatrices" = true
 		#Cockatrice spawn weight. Lower = lower chance to spawn
 		#Range: 1 ~ 10000
-		"Cockatrice Spawn Weight" = 4
+		"Cockatrice Spawn Weight" = 2
 
 	[Mobs.Stymphalians]
 		#How many blocks away can stymphalian birds spot potential prey. Note that increasing this could cause lag.

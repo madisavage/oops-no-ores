@@ -4,7 +4,7 @@
 	filename: "chapter_2"
 	group: ""
 	id: "00AB27A998BFCFB1"
-	order_index: 3
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
@@ -418,6 +418,7 @@
 				title: "aluminium"
 				type: "checkmark"
 			}]
+			title: "aluminum (bauxite)"
 			x: -7.5d
 			y: 3.5d
 		}
@@ -476,11 +477,13 @@
 		{
 			dependencies: ["7E955C56787745BF"]
 			id: "6F9E9B5632EB8D1C"
+			subtitle: "Meteors spawn only on the moon"
 			tasks: [{
 				id: "5F4AEC993F9016CD"
 				title: "tell player ae2 meteors on moon"
 				type: "checkmark"
 			}]
+			title: "AE2 Meteors"
 			x: 5.5d
 			y: 18.0d
 		}
@@ -519,16 +522,6 @@
 			y: 11.0d
 		}
 		{
-			id: "371A20A269CEA9DF"
-			tasks: [{
-				id: "2115A29D23D8C741"
-				title: "TODO remove immersive engineering ores"
-				type: "checkmark"
-			}]
-			x: 2.0d
-			y: 9.0d
-		}
-		{
 			id: "7A221B507E2B31C2"
 			tasks: [{
 				id: "157FB0820DCD7EEC"
@@ -537,6 +530,49 @@
 			}]
 			x: 11.0d
 			y: -1.5d
+		}
+		{
+			dependencies: ["174D73ABF637A148"]
+			id: "6636B32E30B81CED"
+			subtitle: "From here you can begin the Botania chapter"
+			tasks: [{
+				id: "7FC29817CBBCD781"
+				title: "todo botania "
+				type: "checkmark"
+			}]
+			title: "Botania Access"
+			x: 9.5d
+			y: 13.0d
+		}
+		{
+			id: "68F5033EF80C6A38"
+			tasks: [{
+				id: "04A901136EB6F7C2"
+				title: "fluorite needs to go in here too"
+				type: "checkmark"
+			}]
+			x: 13.0d
+			y: -1.5d
+		}
+		{
+			id: "0AA0C410A4B4B85D"
+			tasks: [{
+				id: "1C77870658A61809"
+				title: "nickel"
+				type: "checkmark"
+			}]
+			x: 12.0d
+			y: -0.5d
+		}
+		{
+			id: "231701214AD5AFB4"
+			tasks: [{
+				id: "3AFF98A86B235550"
+				title: "lead"
+				type: "checkmark"
+			}]
+			x: 13.0d
+			y: -0.5d
 		}
 	]
 	title: "Chapter 2"

@@ -4,50 +4,45 @@
 	filename: "chapter_tres"
 	group: ""
 	id: "6F352D9E75FC6331"
-	order_index: 4
+	order_index: 6
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["20351B0AAF511B7F"]
 			id: "376D3A06F73D1797"
+			optional: true
 			tasks: [{
 				id: "46A80A8E1BF689DC"
 				item: "ae2:controller"
 				type: "item"
 			}]
-			x: 3.5d
-			y: 1.5d
+			x: -6.0d
+			y: 4.0d
 		}
 		{
+			dependencies: ["5EB69AD53A47EAE3"]
 			id: "4BFB4114CB6E2005"
 			tasks: [{
 				id: "6D232CA6965097A4"
 				item: "bloodmagic:altar"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 1.5d
+			x: -6.0d
+			y: -2.0d
 		}
 		{
+			dependencies: ["5EB69AD53A47EAE3"]
 			id: "14736862B81B52D9"
 			tasks: [{
 				id: "0ED1FF9BA230006F"
 				item: "mekanism:steel_casing"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 1.5d
+			x: -6.0d
+			y: 0.0d
 		}
 		{
-			id: "405A5CD941111523"
-			tasks: [{
-				id: "57688459B29E56FB"
-				title: "todo put ae2 meteors on moon"
-				type: "checkmark"
-			}]
-			x: 3.5d
-			y: -1.0d
-		}
-		{
+			dependencies: ["5EB69AD53A47EAE3"]
 			id: "2D6A3DFAAA054DB0"
 			tasks: [
 				{
@@ -61,98 +56,658 @@
 					type: "item"
 				}
 			]
-			x: -5.0d
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4BFB4114CB6E2005"]
+			id: "1F480CFC7DB30687"
+			tasks: [{
+				id: "051A856B15588236"
+				item: "bloodmagic:blankslate"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1F480CFC7DB30687"]
+			id: "55661ED61A75DA2B"
+			tasks: [{
+				id: "1EF207663BDE39C8"
+				item: "bloodmagic:reinforcedslate"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["55661ED61A75DA2B"]
+			id: "39E725F0339F34E0"
+			tasks: [{
+				id: "53188F83C951F56D"
+				item: "bloodmagic:infusedslate"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["39E725F0339F34E0"]
+			id: "4DC8ED0C18C43E4B"
+			tasks: [{
+				id: "6332FD0126CE912D"
+				item: "bloodmagic:demonslate"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["4DC8ED0C18C43E4B"]
+			id: "3388C3CA48EDE384"
+			shape: "gear"
+			tasks: [{
+				id: "5BEAD91B35E7D7C6"
+				item: "bloodmagic:etherealslate"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -9.5d
+		}
+		{
+			id: "5EB69AD53A47EAE3"
+			subtitle: "This chapter covers some of the more complex routes to endgame items. Others have their own chapters"
+			tasks: [{
+				id: "2F1388DDEEFF3547"
+				title: "This chapter covers the more complex routes to the endgame requirements"
+				type: "checkmark"
+			}]
+			title: "Route to Endgame"
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5EB69AD53A47EAE3"]
+			id: "6DEA53C1DB2926DA"
+			subtitle: "Bees have their own chapter. Learn how to make the Productivity Upgrade: Omega there."
+			tasks: [{
+				id: "745B3D70A279DC2F"
+				title: "Bees have their own chapter"
+				type: "checkmark"
+			}]
+			title: "Bees"
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5EB69AD53A47EAE3"]
+			id: "329CCA4A6FB72FB1"
+			tasks: [{
+				id: "428BB5A610DB3677"
+				item: "iceandfire:bestiary"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["329CCA4A6FB72FB1"]
+			id: "33F958E3CBCDF2D3"
+			tasks: [{
+				id: "028DFEF21DA843DC"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "iceandfire:dragonegg_red"
+							}
+							{
+								Count: 1b
+								id: "iceandfire:dragonegg_green"
+							}
+							{
+								Count: 1b
+								id: "iceandfire:dragonegg_bronze"
+							}
+							{
+								Count: 1b
+								id: "iceandfire:dragonegg_gray"
+							}
+							{
+								Count: 1b
+								id: "iceandfire:dragonegg_blue"
+							}
+							{
+								Count: 1b
+								id: "iceandfire:dragonegg_white"
+							}
+							{
+								Count: 1b
+								id: "iceandfire:dragonegg_sapphire"
+							}
+							{
+								Count: 1b
+								id: "iceandfire:dragonegg_silver"
+							}
+							{
+								Count: 1b
+								id: "iceandfire:dragonegg_electric"
+							}
+							{
+								Count: 1b
+								id: "iceandfire:dragonegg_amythest"
+							}
+							{
+								Count: 1b
+								id: "iceandfire:dragonegg_copper"
+							}
+							{
+								Count: 1b
+								id: "iceandfire:dragonegg_black"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["33F958E3CBCDF2D3"]
+			id: "23884A29FBA256BB"
+			shape: "gear"
+			tasks: [{
+				id: "4FE57BEC4352B695"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "iceandfire:dragonsteel_fire_ingot"
+							}
+							{
+								Count: 1b
+								id: "iceandfire:dragonsteel_ice_ingot"
+							}
+							{
+								Count: 1b
+								id: "iceandfire:dragonsteel_lightning_ingot"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["2D6A3DFAAA054DB0"]
+			id: "2B59717B1A43B944"
+			tasks: [{
+				id: "00E3349C9C3B1D89"
+				item: "mysticalagriculture:inferium_essence"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5EB69AD53A47EAE3"]
+			id: "1AF85C6F1BF0A72D"
+			subtitle: "Botania has its own chapter. Learn how to make the Gaia spirit ingot there"
+			tasks: [{
+				id: "679E658FFE5AB8AC"
+				title: "Botania is covered in Chapter 2"
+				type: "checkmark"
+			}]
+			title: "Botania"
+			x: -4.0d
 			y: 2.0d
 		}
 		{
-			id: "084F11A074226369"
+			dependencies: ["20351B0AAF511B7F"]
+			id: "1BF2307F915422DF"
 			tasks: [{
-				id: "122FD269FC4F955C"
-				item: "mysticalagriculture:stone_seeds"
+				id: "58E7AF8CA0EA4E73"
+				item: "ae2:condenser"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 4.0d
+			x: -8.0d
+			y: 5.5d
 		}
 		{
-			id: "0373E4BA690F68CD"
+			dependencies: ["5EB69AD53A47EAE3"]
+			id: "20351B0AAF511B7F"
 			tasks: [{
-				id: "537D89240AB98000"
+				id: "7F9CE9AA30E3F715"
+				item: "ae2:fluix_crystal"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0827848282822A30"]
+			id: "652BB5DD7A40CD24"
+			shape: "gear"
+			tasks: [{
+				id: "40ADF9D4BE827775"
+				item: "mekanism:pellet_antimatter"
+				type: "item"
+			}]
+			x: -28.0d
+			y: 0.0d
+		}
+		{
+			id: "0827848282822A30"
+			tasks: [{
+				id: "461B98AC8029E46A"
+				item: "mekanism:chemical_crystallizer"
+				type: "item"
+			}]
+			x: -25.5d
+			y: 0.0d
+		}
+		{
+			id: "5DA9DC098A40CDEA"
+			tasks: [{
+				id: "34DDED9A628C03E2"
+				item: "mekanism:solar_neutron_activator"
+				type: "item"
+			}]
+			x: -20.5d
+			y: 0.0d
+		}
+		{
+			id: "08D0C71BD6C16D1B"
+			tasks: [
+				{
+					id: "29C8ECEC28146208"
+					item: "mekanismgenerators:control_rod_assembly"
+					type: "item"
+				}
+				{
+					id: "10905A41F5D6B6F4"
+					title: "Build fission reactor"
+					type: "checkmark"
+				}
+			]
+			x: -18.5d
+			y: 0.0d
+		}
+		{
+			id: "6CB98873212948E7"
+			tasks: [
+				{
+					id: "49C8C010BDFCBACE"
+					item: "mekanism:sps_port"
+					type: "item"
+				}
+				{
+					id: "07D1C82F52B46ADF"
+					title: "Build supercritical phase shifter"
+					type: "checkmark"
+				}
+			]
+			x: -23.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["376D3A06F73D1797"]
+			id: "37A90F7BFA0F7111"
+			optional: true
+			tasks: [{
+				id: "5055A4C8F9918941"
+				title: "Digital storage if you feel like it"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5EB69AD53A47EAE3"]
+			id: "77D15F9C2CBCF234"
+			tasks: [{
+				id: "288DA0D7BA53B44B"
+				item: "ars_nouveau:ritual_wilden_summon"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["77D15F9C2CBCF234"]
+			id: "75C6C37784879E39"
+			tasks: [{
+				id: "0103C02F6DE663EC"
+				item: "ars_nouveau:wilden_tribute"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["77D15F9C2CBCF234"]
+			id: "4BFBE162142A5D72"
+			tasks: [
+				{
+					id: "236118317AAEE37F"
+					item: "ars_nouveau:abjuration_essence"
+					type: "item"
+				}
+				{
+					id: "196DDCDCBEFB1DE6"
+					item: "ars_nouveau:conjuration_essence"
+					type: "item"
+				}
+				{
+					id: "53D95965571AFB03"
+					item: "ars_nouveau:air_essence"
+					type: "item"
+				}
+				{
+					id: "5E9CC7936FA2487E"
+					item: "ars_nouveau:earth_essence"
+					type: "item"
+				}
+				{
+					id: "03EAF35ACD8FA274"
+					item: "ars_nouveau:fire_essence"
+					type: "item"
+				}
+				{
+					id: "671C855A6BBDA306"
+					item: "ars_nouveau:manipulation_essence"
+					type: "item"
+				}
+				{
+					id: "05C4D2E7E36A8381"
+					item: "ars_nouveau:water_essence"
+					type: "item"
+				}
+				{
+					id: "74070486D1AF4040"
+					item: "ars_elemental:anima_essence"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"4BFBE162142A5D72"
+				"75C6C37784879E39"
+			]
+			id: "7052606AED9E18F5"
+			shape: "gear"
+			tasks: [{
+				id: "7925973FB6595396"
+				item: "ars_elemental:mark_of_mastery"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2B59717B1A43B944"]
+			id: "483467F676748305"
+			tasks: [{
+				id: "7BB9EA1F82D60E83"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "mysticalagriculture:infusion_crystal"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "mysticalagriculture:master_infusion_crystal"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["483467F676748305"]
+			id: "5CB1C7E4FF607A60"
+			tasks: [{
+				id: "27ABD904893BA60E"
+				item: "mysticalagriculture:prudentium_essence"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5CB1C7E4FF607A60"]
+			id: "79A9E2E974278BE2"
+			tasks: [{
+				id: "7369161F3A849EFE"
+				item: "mysticalagriculture:tertium_essence"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["79A9E2E974278BE2"]
+			id: "145E76583871FCB7"
+			tasks: [{
+				id: "78BF9F5EE4CBF9AC"
+				item: "mysticalagriculture:imperium_essence"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["145E76583871FCB7"]
+			id: "58FA106A79C6576F"
+			tasks: [{
+				id: "59C6A4DD98211A1B"
+				item: "mysticalagriculture:supremium_essence"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["58FA106A79C6576F"]
+			id: "7F1F70519DF99341"
+			shape: "gear"
+			tasks: [{
+				id: "08AFCEE57FD585C5"
+				item: "mysticalagradditions:insanium_essence"
+				type: "item"
+			}]
+			x: 18.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2B59717B1A43B944"]
+			id: "5C9DADB6957DBD8B"
+			optional: true
+			tasks: [
+				{
+					id: "6B4AC0F6EF7B2905"
+					item: "mysticalagriculture:air_seeds"
+					type: "item"
+				}
+				{
+					id: "65E3FD5F5410D2D8"
+					item: "mysticalagriculture:water_seeds"
+					type: "item"
+				}
+				{
+					id: "4049F3DE869D0328"
+					item: "mysticalagriculture:fire_seeds"
+					type: "item"
+				}
+				{
+					id: "216929814CFBB20F"
+					item: "mysticalagriculture:earth_seeds"
+					type: "item"
+				}
+			]
+			title: "Elemental seeds"
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2B59717B1A43B944"]
+			id: "57838D6AF9C63B19"
+			optional: true
+			subtitle: "Take advantage of the ability to grow inferium"
+			tasks: [{
+				id: "66B8E262D13525C2"
 				item: "mysticalagriculture:inferium_seeds"
 				type: "item"
 			}]
-			x: -6.0d
-			y: 4.0d
+			x: 2.5d
+			y: -4.5d
 		}
 		{
-			id: "3FFF104B2AC8238C"
+			dependencies: ["2B59717B1A43B944"]
+			id: "400A507915A429C4"
+			optional: true
 			tasks: [{
-				id: "013BE399FC55AA85"
-				item: "mysticalagriculture:dirt_seeds"
-				type: "item"
-			}]
-			x: -5.0d
-			y: 4.0d
-		}
-		{
-			id: "753DA5A94F567A68"
-			tasks: [{
-				id: "68A193318E18E736"
+				id: "10E2122E131A6CFF"
 				item: "mysticalagriculture:wood_seeds"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 4.0d
+			title: "Tier 1 seeds"
+			x: 3.5d
+			y: -2.5d
 		}
 		{
-			id: "76D0630CD6137C89"
+			dependencies: ["5CB1C7E4FF607A60"]
+			id: "7A2FC203E9F44C8C"
+			optional: true
 			tasks: [{
-				id: "652FD31C641B77B5"
-				item: "mysticalagriculture:deepslate_seeds"
+				id: "6E8FF21BFD38999B"
+				item: "mysticalagriculture:aluminum_seeds"
 				type: "item"
 			}]
-			x: -7.0d
-			y: 4.0d
-		}
-		{
-			id: "0FC7EB5E7D6FBEFA"
-			tasks: [{
-				id: "198C4959158BC3CC"
-				item: "mysticalagriculture:air_seeds"
-				type: "item"
-			}]
-			x: -6.0d
-			y: 1.5d
-		}
-		{
-			id: "3AF0674E2EAE597E"
-			tasks: [{
-				id: "4E8CA50F60AC66EC"
-				item: "mysticalagriculture:earth_seeds"
-				type: "item"
-			}]
-			x: -6.0d
+			title: "Tier 2 seeds"
+			x: 6.5d
 			y: 2.5d
 		}
 		{
-			id: "20A54F7DC3E26487"
+			dependencies: ["79A9E2E974278BE2"]
+			id: "60DAC1554B1D97D3"
+			optional: true
 			tasks: [{
-				id: "0C6272EC441F4303"
-				item: "mysticalagriculture:water_seeds"
+				id: "7BCD4D904A69258C"
+				item: "mysticalagriculture:iron_seeds"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 1.5d
+			title: "Tier 3 seeds"
+			x: 9.5d
+			y: -2.5d
 		}
 		{
-			id: "54BCF3A4D01938C3"
+			dependencies: ["145E76583871FCB7"]
+			id: "444C1200B0BB1360"
+			optional: true
 			tasks: [{
-				id: "21E048236BA7C013"
-				item: "mysticalagriculture:fire_seeds"
+				id: "6E97323F87B2BFB7"
+				item: "mysticalagriculture:gold_seeds"
 				type: "item"
 			}]
-			x: -4.0d
+			title: "Tier 4 seeds"
+			x: 12.5d
 			y: 2.5d
+		}
+		{
+			dependencies: ["58FA106A79C6576F"]
+			id: "63DB86BC200F8708"
+			tasks: [{
+				id: "5E84C084DA35AE74"
+				item: "mysticalagriculture:diamond_seeds"
+				type: "item"
+			}]
+			title: "Tier 5 seeds"
+			x: 15.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["58FA106A79C6576F"]
+			id: "284A868E1975F8E4"
+			tasks: [{
+				id: "35D6910A4C633A1E"
+				item: "mysticalagriculture:dragon_egg_seeds"
+				type: "item"
+			}]
+			title: "Tier 6 seeds"
+			x: 15.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1BF2307F915422DF"]
+			id: "0B0CB6D771EF992D"
+			tasks: [{
+				id: "09B61E545410E18F"
+				item: "ae2:singularity"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["20351B0AAF511B7F"]
+			id: "54F76B1FFEDE1A3E"
+			tasks: [{
+				id: "3A97A5773E1889CA"
+				item: "advanced_ae:reaction_chamber"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["54F76B1FFEDE1A3E"]
+			id: "3071941277017AAB"
+			tasks: [{
+				id: "6253858782C29441"
+				item: "advanced_ae:shattered_singularity"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"0B0CB6D771EF992D"
+				"3071941277017AAB"
+			]
+			id: "73A05AB75E4E73D2"
+			shape: "gear"
+			tasks: [{
+				id: "2C83FCC79973FCFA"
+				item: "advanced_ae:quantum_alloy"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 8.0d
 		}
 	]
 	title: "Chapter Tres"

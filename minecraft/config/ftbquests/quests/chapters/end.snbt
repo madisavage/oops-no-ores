@@ -4,7 +4,7 @@
 	filename: "end"
 	group: ""
 	id: "199E8E53754BCF10"
-	order_index: 5
+	order_index: 7
 	quest_links: [ ]
 	quests: [
 		{
@@ -60,8 +60,27 @@
 		{
 			id: "2BE75468C5424CAC"
 			tasks: [{
-				id: "67D26975278ABE2C"
-				item: "iceandfire:dragonsteel_lightning_ingot"
+				id: "26CFEC2FC68F1D3A"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "iceandfire:dragonsteel_fire_ingot"
+							}
+							{
+								Count: 1b
+								id: "iceandfire:dragonsteel_ice_ingot"
+							}
+							{
+								Count: 1b
+								id: "iceandfire:dragonsteel_lightning_ingot"
+							}
+						]
+					}
+				}
 				type: "item"
 			}]
 			x: 2.0d
@@ -84,7 +103,7 @@
 				item: "bloodmagic:etherealslate"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 0.5d
 			y: -7.5d
 		}
 		{
@@ -104,7 +123,7 @@
 				item: "createcasing:chorium_ingot"
 				type: "item"
 			}]
-			x: 0.5d
+			x: 2.0d
 			y: -7.5d
 		}
 		{
