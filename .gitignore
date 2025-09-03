@@ -6,7 +6,8 @@ minecraft/*
 !minecraft/kubejs
 *.tmp
 oculus.properties
-instance.cfg
+minecraft/config/fabric/indigo-renderer.properties
 minecraft/config/packetfixer.properties
-minecraft/config/oculus.properties
-minecraft/config/indigo-renderer.properties
+minecraft/config/embeddium-fingerprint.json
+instance.cfg
+minecraft/config/cubes_without_borders.json
