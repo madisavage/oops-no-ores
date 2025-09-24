@@ -574,6 +574,16 @@
 			x: 13.0d
 			y: -0.5d
 		}
+		{
+			id: "6EF1123AC43D60C7"
+			tasks: [{
+				id: "7AFAF31B6D254271"
+				title: "maybe do something with ars nouveau sourcestone"
+				type: "checkmark"
+			}]
+			x: 12.0d
+			y: -2.5d
+		}
 	]
 	title: "Chapter 2"
 }

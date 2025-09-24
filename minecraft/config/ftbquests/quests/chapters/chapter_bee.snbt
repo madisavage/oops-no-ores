@@ -8,34 +8,301 @@
 	quest_links: [ ]
 	quests: [
 		{
-			id: "0C44B928D3264AC9"
+			id: "0BE0E6BB56811F7E"
+			tasks: [
+				{
+					id: "61B6F1DF71109589"
+					item: "minecraft:honey_bottle"
+					type: "item"
+				}
+				{
+					id: "5FE5C17850412485"
+					item: "minecraft:honeycomb"
+					type: "item"
+				}
+			]
+			title: "Getting started"
+			x: 1.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["0BE0E6BB56811F7E"]
+			id: "0DFF398BDC661AC9"
 			tasks: [{
-				id: "0463004C8AA4950D"
-				item: "minecraft:beehive"
+				id: "1FE63B1AC474D246"
+				item: "productivebees:honey_treat"
 				type: "item"
 			}]
-			x: 0.5d
-			y: -0.5d
+			x: 1.5d
+			y: -2.5d
 		}
 		{
-			id: "5178B33C75CD4457"
+			dependencies: ["0DFF398BDC661AC9"]
+			id: "07DD9B4D5451E65F"
 			tasks: [{
-				id: "674EC70F3FFD659C"
-				title: "this is not actually where bees start"
-				type: "checkmark"
+				id: "560895F3F2953D62"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "productivebees:advanced_bamboo_beehive"
+							}
+							{
+								Count: 1b
+								id: "productivebees:advanced_cherry_beehive"
+							}
+							{
+								Count: 1b
+								id: "productivebees:advanced_crimson_beehive"
+							}
+							{
+								Count: 1b
+								id: "productivebees:advanced_birch_beehive"
+							}
+							{
+								Count: 1b
+								id: "productivebees:advanced_oak_beehive"
+							}
+							{
+								Count: 1b
+								id: "productivebees:advanced_acacia_beehive"
+							}
+							{
+								Count: 1b
+								id: "productivebees:advanced_warped_beehive"
+							}
+							{
+								Count: 1b
+								id: "productivebees:advanced_jungle_beehive"
+							}
+							{
+								Count: 1b
+								id: "productivebees:advanced_dark_oak_beehive"
+							}
+							{
+								Count: 1b
+								id: "productivebees:advanced_mangrove_beehive"
+							}
+							{
+								Count: 1b
+								id: "productivebees:advanced_snake_block_beehive"
+							}
+							{
+								Count: 1b
+								id: "productivebees:advanced_spruce_beehive"
+							}
+						]
+					}
+				}
+				type: "item"
 			}]
-			x: 2.5d
-			y: -0.5d
+			title: "Advanced Beehive"
+			x: 1.5d
+			y: 1.5d
 		}
 		{
-			id: "2A7194229E5BA67E"
+			dependencies: ["07DD9B4D5451E65F"]
+			id: "35BECFD53A383139"
+			optional: true
 			tasks: [{
-				id: "4C8D1F8F38CDF2D4"
-				item: "productivebees:spawn_egg_quarry_bee"
+				id: "048D95962F8FEAD9"
+				item: "productivebees:breeding_chamber"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["07DD9B4D5451E65F"]
+			id: "2EE8EA517F1C91D0"
+			tasks: [
+				{
+					id: "76D71636E4F529BE"
+					item: "productivebees:draconic_dust"
+					type: "item"
+				}
+				{
+					id: "481B269CFA00FA0F"
+					item: "minecraft:dragon_egg"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["07DD9B4D5451E65F"]
+			id: "7CF2CD55B5D7B51A"
+			optional: true
+			tasks: [{
+				id: "3B90434E0F8A65AF"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "productivebees:expansion_box_bamboo"
+							}
+							{
+								Count: 1b
+								id: "productivebees:expansion_box_cherry"
+							}
+							{
+								Count: 1b
+								id: "productivebees:expansion_box_crimson"
+							}
+							{
+								Count: 1b
+								id: "productivebees:expansion_box_birch"
+							}
+							{
+								Count: 1b
+								id: "productivebees:expansion_box_oak"
+							}
+							{
+								Count: 1b
+								id: "productivebees:expansion_box_acacia"
+							}
+							{
+								Count: 1b
+								id: "productivebees:expansion_box_warped"
+							}
+							{
+								Count: 1b
+								id: "productivebees:expansion_box_dark_oak"
+							}
+							{
+								Count: 1b
+								id: "productivebees:expansion_box_jungle"
+							}
+							{
+								Count: 1b
+								id: "productivebees:expansion_box_mangrove"
+							}
+							{
+								Count: 1b
+								id: "productivebees:expansion_box_snake_block"
+							}
+							{
+								Count: 1b
+								id: "productivebees:expansion_box_spruce"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["07DD9B4D5451E65F"]
+			id: "4BEDF3BB6D60AD2C"
+			optional: true
+			tasks: [{
+				id: "7938473ECC7ECC8B"
+				item: "productivebees:incubator"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["07DD9B4D5451E65F"]
+			id: "3E2DBED37D7EA596"
+			optional: true
+			tasks: [{
+				id: "026B91D0E99D03BE"
+				item: "productivebees:catcher"
 				type: "item"
 			}]
 			x: -3.0d
-			y: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["07DD9B4D5451E65F"]
+			id: "349E0454916E72DE"
+			optional: true
+			tasks: [{
+				id: "41556F89E5FEED8C"
+				item: "productivebees:catcher"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["07DD9B4D5451E65F"]
+			id: "51BB35A2E849BBED"
+			optional: true
+			tasks: [{
+				id: "79B3764806A46918"
+				item: "productivebees:upgrade_simulator"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2EE8EA517F1C91D0"]
+			id: "6FDEEE6221CCD686"
+			tasks: [{
+				id: "5FCCEAF96154C819"
+				item: "productivebees:upgrade_base"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["6FDEEE6221CCD686"]
+			id: "7497B4BB13407F86"
+			tasks: [{
+				id: "32F5CDE2EBC34EE7"
+				item: "productivebees:upgrade_productivity"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["7497B4BB13407F86"]
+			id: "7C10AD551C9F4891"
+			tasks: [{
+				id: "468F216F8FA63D85"
+				item: "productivebees:upgrade_productivity_2"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["7C10AD551C9F4891"]
+			id: "69E57B244B4A971A"
+			tasks: [{
+				id: "27D78B09B760B61D"
+				item: "productivebees:upgrade_productivity_3"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["69E57B244B4A971A"]
+			id: "4D2669CD40069954"
+			shape: "gear"
+			tasks: [{
+				id: "04D2C1628C64826D"
+				item: "productivebees:upgrade_productivity_4"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -5.5d
 		}
 	]
 	title: "Chapter B(ee)"
