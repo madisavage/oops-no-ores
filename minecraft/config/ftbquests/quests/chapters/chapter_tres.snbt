@@ -4,7 +4,7 @@
 	filename: "chapter_tres"
 	group: ""
 	id: "6F352D9E75FC6331"
-	order_index: 6
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
@@ -262,11 +262,66 @@
 		{
 			dependencies: ["5EB69AD53A47EAE3"]
 			id: "1AF85C6F1BF0A72D"
-			subtitle: "Botania has its own chapter. Learn how to make the Gaia spirit ingot there"
+			subtitle: "The petal apothecary is the foundational item in Botania"
 			tasks: [{
-				id: "679E658FFE5AB8AC"
-				title: "Botania is covered in Chapter 2"
-				type: "checkmark"
+				id: "4B73A5F17C94006B"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "botania:apothecary_default"
+							}
+							{
+								Count: 1b
+								id: "botania:apothecary_forest"
+							}
+							{
+								Count: 1b
+								id: "botania:apothecary_plains"
+							}
+							{
+								Count: 1b
+								id: "botania:apothecary_mountain"
+							}
+							{
+								Count: 1b
+								id: "botania:apothecary_fungal"
+							}
+							{
+								Count: 1b
+								id: "botania:apothecary_swamp"
+							}
+							{
+								Count: 1b
+								id: "botania:apothecary_desert"
+							}
+							{
+								Count: 1b
+								id: "botania:apothecary_taiga"
+							}
+							{
+								Count: 1b
+								id: "botania:apothecary_mesa"
+							}
+							{
+								Count: 1b
+								id: "botania:apothecary_mossy"
+							}
+							{
+								Count: 1b
+								id: "botania:apothecary_livingrock"
+							}
+							{
+								Count: 1b
+								id: "botania:apothecary_deepslate"
+							}
+						]
+					}
+				}
+				type: "item"
 			}]
 			title: "Botania"
 			x: -4.0d
@@ -708,6 +763,41 @@
 			}]
 			x: -13.5d
 			y: 8.0d
+		}
+		{
+			dependencies: ["1AF85C6F1BF0A72D"]
+			id: "419A0BFDCF277563"
+			subtitle: "The Lexica Botania provides a great tutorial for Botania"
+			tasks: [{
+				id: "5DCFBBE30BF50B9B"
+				item: "botania:lexicon"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["419A0BFDCF277563"]
+			id: "19FFA1649874585F"
+			tasks: [{
+				id: "01DB06F75144683D"
+				item: "botania:terrasteel_ingot"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["19FFA1649874585F"]
+			id: "74B9C9F5D9C2FFBC"
+			shape: "gear"
+			tasks: [{
+				id: "47FA5719D8630B83"
+				item: "botania:gaia_ingot"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 8.5d
 		}
 	]
 	title: "Chapter Tres"
