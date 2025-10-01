@@ -207,6 +207,7 @@
 			y: 3.5d
 		}
 		{
+			dependencies: ["7E4DBAA931922A0F"]
 			id: "6440E0CB46BFB505"
 			tasks: [{
 				id: "7DFA083BC98B7B5B"
@@ -217,6 +218,7 @@
 			y: 4.5d
 		}
 		{
+			dependencies: ["48DBEC28B0C7F9F2"]
 			id: "7DE35D640BF2D6CC"
 			tasks: [{
 				id: "140D446E12219E58"
@@ -227,6 +229,7 @@
 			y: 0.5d
 		}
 		{
+			dependencies: ["48DBEC28B0C7F9F2"]
 			id: "3DE397B22A3AFFF3"
 			tasks: [{
 				id: "3B73A4A0BF52B2E1"
@@ -237,6 +240,7 @@
 			y: 0.5d
 		}
 		{
+			dependencies: ["76D8AA996ED2798C"]
 			id: "714FD2137E3D3B18"
 			tasks: [{
 				id: "77DBAFE161C1F14D"
@@ -247,6 +251,7 @@
 			y: 4.5d
 		}
 		{
+			dependencies: ["48DBEC28B0C7F9F2"]
 			id: "41B51FAE5D8DA72B"
 			tasks: [{
 				id: "5952DCC1CF5A16D2"
@@ -257,6 +262,9 @@
 			y: 0.5d
 		}
 		{
+			dependencies: ["48DBEC28B0C7F9F2"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
 			id: "200098781D1A80C5"
 			tasks: [{
 				id: "4AB13C2285CF3180"
@@ -278,6 +286,7 @@
 			y: 8.5d
 		}
 		{
+			dependencies: ["3DE397B22A3AFFF3"]
 			id: "7447315242506D30"
 			tasks: [{
 				id: "1BB5763EA2A9CE5C"
@@ -288,6 +297,10 @@
 			y: 3.5d
 		}
 		{
+			dependencies: [
+				"200098781D1A80C5"
+				"7DE35D640BF2D6CC"
+			]
 			id: "3E72EE7BFE887C2F"
 			tasks: [{
 				id: "14029321C995B285"
@@ -315,6 +328,7 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["5F1E4BB277F8A5AD"]
 			id: "256FF1EFEEF0AE06"
 			tasks: [{
 				id: "35871A4122A96C6E"
@@ -325,6 +339,7 @@
 			y: 4.5d
 		}
 		{
+			dependencies: ["49FAE4F290FF3486"]
 			id: "0FBDF8EEC1153966"
 			tasks: [{
 				id: "3A485E87BA872472"
@@ -335,7 +350,10 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["5C8294982941AAC8"]
+			dependencies: [
+				"5C8294982941AAC8"
+				"48DBEC28B0C7F9F2"
+			]
 			id: "49FAE4F290FF3486"
 			tasks: [{
 				id: "02AC6BA7008B826F"
@@ -346,6 +364,7 @@
 			y: 0.5d
 		}
 		{
+			dependencies: ["284B61B880A5FA30"]
 			id: "24AB32F53A2C3C21"
 			tasks: [{
 				id: "780C5C7E131A476C"
@@ -412,6 +431,7 @@
 			y: 7.5d
 		}
 		{
+			dependencies: ["41B51FAE5D8DA72B"]
 			id: "78639944EDB5E897"
 			tasks: [{
 				id: "6FCEE7D2E9B637FB"
@@ -423,16 +443,7 @@
 			y: 3.5d
 		}
 		{
-			id: "3BF7EB20665DBF23"
-			tasks: [{
-				id: "0DC9B198E5881251"
-				item: "create:crushed_raw_silver"
-				type: "item"
-			}]
-			x: 9.5d
-			y: 4.5d
-		}
-		{
+			dependencies: ["78B0C469C95B86A5"]
 			id: "0DE0CE4B0515D2C9"
 			tasks: [{
 				id: "1C19C660C81434E1"
@@ -443,6 +454,7 @@
 			y: 4.5d
 		}
 		{
+			dependencies: ["3AA1B8F6053D7D5D"]
 			id: "744E73C1C88A4D87"
 			tasks: [{
 				id: "3A7F287498A1F76F"
@@ -501,16 +513,6 @@
 			y: 14.0d
 		}
 		{
-			id: "443CAAD35144789B"
-			tasks: [{
-				id: "55598E85335CCF31"
-				title: "todo connect this shit"
-				type: "checkmark"
-			}]
-			x: 9.5d
-			y: -1.5d
-		}
-		{
 			dependencies: ["28AF8D02EF1A0277"]
 			id: "174D73ABF637A148"
 			tasks: [{
@@ -545,34 +547,26 @@
 			y: 13.0d
 		}
 		{
-			id: "68F5033EF80C6A38"
+			dependencies: ["49FAE4F290FF3486"]
+			id: "7ED696E1526D3B44"
 			tasks: [{
-				id: "04A901136EB6F7C2"
-				title: "fluorite needs to go in here too"
-				type: "checkmark"
+				id: "455A517C06DE13BA"
+				item: "create:crushed_raw_lead"
+				type: "item"
 			}]
-			x: 13.0d
-			y: -1.5d
+			x: 9.5d
+			y: 2.5d
 		}
 		{
-			id: "0AA0C410A4B4B85D"
+			dependencies: ["49FAE4F290FF3486"]
+			id: "550790F649F5050C"
 			tasks: [{
-				id: "1C77870658A61809"
-				title: "nickel"
-				type: "checkmark"
+				id: "7B5E21F7D05B8AA4"
+				item: "mekanism:fluorite_gem"
+				type: "item"
 			}]
-			x: 12.0d
-			y: -0.5d
-		}
-		{
-			id: "231701214AD5AFB4"
-			tasks: [{
-				id: "3AFF98A86B235550"
-				title: "lead"
-				type: "checkmark"
-			}]
-			x: 13.0d
-			y: -0.5d
+			x: 9.5d
+			y: 4.5d
 		}
 		{
 			id: "6EF1123AC43D60C7"
