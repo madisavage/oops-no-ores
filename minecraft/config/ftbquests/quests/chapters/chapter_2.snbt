@@ -50,7 +50,7 @@
 				type: "item"
 			}]
 			x: -6.0d
-			y: 3.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["48DBEC28B0C7F9F2"]
@@ -94,7 +94,7 @@
 				}
 			]
 			x: -3.0d
-			y: 3.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["48DBEC28B0C7F9F2"]
@@ -116,7 +116,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 3.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["48DBEC28B0C7F9F2"]
@@ -138,7 +138,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 3.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["48DBEC28B0C7F9F2"]
@@ -160,7 +160,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 3.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["48DBEC28B0C7F9F2"]
@@ -182,7 +182,7 @@
 				type: "item"
 			}]
 			x: -4.5d
-			y: 3.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["48DBEC28B0C7F9F2"]
@@ -192,7 +192,7 @@
 				item: "minecraft:dripstone_block"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 3.5d
 			y: 0.5d
 		}
 		{
@@ -203,8 +203,8 @@
 				item: "minecraft:clay_ball"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 3.5d
+			x: 3.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["7E4DBAA931922A0F"]
@@ -215,7 +215,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 4.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["48DBEC28B0C7F9F2"]
@@ -225,7 +225,7 @@
 				item: "create:scoria"
 				type: "item"
 			}]
-			x: 6.5d
+			x: 5.5d
 			y: 0.5d
 		}
 		{
@@ -248,7 +248,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 4.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["48DBEC28B0C7F9F2"]
@@ -271,7 +271,7 @@
 				item: "create:scorchia"
 				type: "item"
 			}]
-			x: 6.5d
+			x: 5.5d
 			y: 2.0d
 		}
 		{
@@ -282,7 +282,7 @@
 				item: "minecraft:glowstone_dust"
 				type: "item"
 			}]
-			x: 9.5d
+			x: 5.5d
 			y: 8.5d
 		}
 		{
@@ -294,7 +294,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: 3.5d
+			y: 3.0d
 		}
 		{
 			dependencies: [
@@ -307,12 +307,12 @@
 				item: "minecraft:diamond"
 				type: "item"
 			}]
-			x: 6.5d
-			y: 3.5d
+			x: 5.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["3E72EE7BFE887C2F"]
-			hide_dependent_lines: true
+			hide_dependency_lines: false
 			id: "5C8294982941AAC8"
 			rewards: [{
 				id: "3CD4799DA92B08AD"
@@ -324,8 +324,8 @@
 				item: "dimpaintings:nether_painting"
 				type: "item"
 			}]
-			x: 9.5d
-			y: 6.0d
+			x: 5.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["5F1E4BB277F8A5AD"]
@@ -336,7 +336,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 4.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["49FAE4F290FF3486"]
@@ -346,7 +346,7 @@
 				item: "minecraft:coal"
 				type: "item"
 			}]
-			x: 9.5d
+			x: 10.0d
 			y: 3.5d
 		}
 		{
@@ -360,7 +360,7 @@
 				item: "minecraft:basalt"
 				type: "item"
 			}]
-			x: 9.5d
+			x: 10.0d
 			y: 0.5d
 		}
 		{
@@ -372,23 +372,27 @@
 				type: "item"
 			}]
 			x: -4.5d
-			y: 4.5d
+			y: 4.0d
 		}
 		{
-			dependencies: ["3E72EE7BFE887C2F"]
+			dependencies: [
+				"3E72EE7BFE887C2F"
+				"174D73ABF637A148"
+			]
 			id: "2725F903A1FA72BA"
 			tasks: [{
 				id: "363DD3CEE25A43A9"
 				item: "naturesaura:sky_ingot"
 				type: "item"
 			}]
-			x: 6.5d
-			y: 14.0d
+			x: 0.5d
+			y: 8.5d
 		}
 		{
 			dependencies: [
 				"7B5FF0CD55987833"
 				"2725F903A1FA72BA"
+				"78639944EDB5E897"
 			]
 			id: "7E955C56787745BF"
 			tasks: [{
@@ -400,8 +404,8 @@
 				}
 				type: "item"
 			}]
-			x: 5.5d
-			y: 16.0d
+			x: -7.5d
+			y: 10.0d
 		}
 		{
 			dependencies: [
@@ -414,10 +418,11 @@
 				item: "mekanism:ingot_steel"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 14.0d
+			x: 8.0d
+			y: 10.0d
 		}
 		{
+			dependencies: ["5C8294982941AAC8"]
 			icon: "immersiveengineering:blast_furnace"
 			id: "3ECC3B483B665F27"
 			tasks: [{
@@ -427,31 +432,30 @@
 				type: "item"
 			}]
 			title: "Sad Times"
-			x: 5.0d
-			y: 7.5d
+			x: 8.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["41B51FAE5D8DA72B"]
 			id: "78639944EDB5E897"
 			tasks: [{
-				id: "6FCEE7D2E9B637FB"
-				title: "aluminium"
-				type: "checkmark"
+				id: "730346853C48FD43"
+				item: "create:crushed_raw_aluminum"
+				type: "item"
 			}]
-			title: "aluminum (bauxite)"
 			x: -7.5d
-			y: 3.5d
+			y: 3.0d
 		}
 		{
-			dependencies: ["78B0C469C95B86A5"]
+			dependencies: ["6654409B7074BF6B"]
 			id: "0DE0CE4B0515D2C9"
 			tasks: [{
 				id: "1C19C660C81434E1"
 				item: "mysticalagriculture:inferium_essence"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 4.5d
+			x: -9.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["3AA1B8F6053D7D5D"]
@@ -461,8 +465,8 @@
 				item: "mysticalagriculture:prosperity_shard"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 4.5d
+			x: 3.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["7B5FF0CD55987833"]
@@ -483,12 +487,13 @@
 				}
 			]
 			title: "Happy Times"
-			x: 4.0d
-			y: 16.0d
+			x: 12.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["7E955C56787745BF"]
 			id: "6F9E9B5632EB8D1C"
+			shape: "gear"
 			subtitle: "Meteors spawn only on the moon"
 			tasks: [{
 				id: "5F4AEC993F9016CD"
@@ -496,8 +501,8 @@
 				type: "checkmark"
 			}]
 			title: "AE2 Meteors"
-			x: 5.5d
-			y: 18.0d
+			x: -9.5d
+			y: 10.0d
 		}
 		{
 			id: "23F87E98E29B8239"
@@ -509,42 +514,20 @@
 				to_observe: "productive_bees:steel_bee"
 				type: "observation"
 			}]
-			x: 2.5d
-			y: 14.0d
+			x: 12.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["28AF8D02EF1A0277"]
 			id: "174D73ABF637A148"
+			shape: "gear"
 			tasks: [{
 				id: "7256C1319C7C3924"
 				item: "botania:apothecary_default"
 				type: "item"
 			}]
-			x: 9.5d
-			y: 11.0d
-		}
-		{
-			id: "7A221B507E2B31C2"
-			tasks: [{
-				id: "157FB0820DCD7EEC"
-				title: "todo add immersive engineering ores"
-				type: "checkmark"
-			}]
-			x: 11.0d
-			y: -1.5d
-		}
-		{
-			dependencies: ["174D73ABF637A148"]
-			id: "6636B32E30B81CED"
-			subtitle: "From here you can begin the Botania chapter"
-			tasks: [{
-				id: "7FC29817CBBCD781"
-				title: "todo botania "
-				type: "checkmark"
-			}]
-			title: "Botania Access"
-			x: 9.5d
-			y: 13.0d
+			x: 3.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["49FAE4F290FF3486"]
@@ -554,7 +537,7 @@
 				item: "create:crushed_raw_lead"
 				type: "item"
 			}]
-			x: 9.5d
+			x: 10.0d
 			y: 2.5d
 		}
 		{
@@ -565,18 +548,64 @@
 				item: "mekanism:fluorite_gem"
 				type: "item"
 			}]
-			x: 9.5d
+			x: 10.0d
 			y: 4.5d
 		}
 		{
-			id: "6EF1123AC43D60C7"
+			dependencies: ["48DBEC28B0C7F9F2"]
+			id: "6654409B7074BF6B"
 			tasks: [{
-				id: "7AFAF31B6D254271"
-				title: "maybe do something with ars nouveau sourcestone"
+				id: "704156A9741FEDC6"
+				item: "ars_nouveau:sourcestone"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["48DBEC28B0C7F9F2"]
+			id: "16A16A36AB93321B"
+			tasks: [{
+				id: "4CD4A6D188081B6D"
+				item: "ad_astra:moon_stone"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["16A16A36AB93321B"]
+			id: "6F7D879E97850C69"
+			tasks: [{
+				id: "2C8FC8067D604A7C"
+				item: "ad_astra:cheese"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6F7D879E97850C69"]
+			id: "021BA4C9ABB1BB50"
+			subtitle: "Moon cheese can be efficiently turned into rat cheese"
+			tasks: [{
+				id: "3B6DA4A4C0631CF7"
+				title: "Rat Cheese Production"
 				type: "checkmark"
 			}]
 			x: 12.0d
-			y: -2.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["16A16A36AB93321B"]
+			id: "3F9E8F48A8196E5B"
+			tasks: [{
+				id: "291CCA0EB575AF41"
+				item: "create:crushed_raw_osmium"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 2.5d
 		}
 	]
 	title: "Chapter 2"

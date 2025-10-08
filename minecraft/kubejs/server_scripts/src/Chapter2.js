@@ -15,11 +15,15 @@ ServerEvents.recipes((event) => {
         "create:limestone"
     );
     event.recipes.create.crushing(
-        Item.of("mysticalagriculture:diamond_essence").withChance(0.3),
+        Item.of("mysticalagriculture:inferium_essence").withChance(0.5),
+        "ars_nouveau:sourcestone"
+    );
+    event.recipes.create.crushing(
+        Item.of("mysticalagriculture:diamond_essence").withChance(0.1),
         "create:scoria"
     );
     event.recipes.create.crushing(
-        Item.of("mysticalagriculture:diamond_essence").withChance(0.3),
+        Item.of("mysticalagriculture:diamond_essence").withChance(0.2),
         "create:scorchia"
     );
     event.recipes.create.crushing(
@@ -97,7 +101,7 @@ ServerEvents.recipes((event) => {
     );
     event.remove({ output: "ad_astra:rocket_fin" });
     event.shaped(Item.of("ad_astra:rocket_fin", 4), [" A ", "AAA", "A A"], {
-        A: "naturesaura:sky_ingot",
+        A: "immersiveengineering:ingot_aluminum",
     });
 
     //mystical agriculture pedestal
@@ -240,4 +244,31 @@ ServerEvents.recipes((event) => {
             C: "minecraft:glowstone_dust",
         }
     );
+
+    event.custom({
+        type: "naturesaura:offering",
+        input: {
+            item: "botania:manasteel_ingot",
+        },
+        start_item: {
+            item: "naturesaura:calling_spirit"
+        },
+        output: {
+            item: "naturesaura:sky_ingot",
+        },
+    });
+
+    event.custom({
+        type: "naturesaura:offering",
+        input: {
+            item: "botania:terrasteel_ingot",
+        },
+        start_item: {
+            item: "naturesaura:calling_spirit"
+        },
+        output: {
+            item: "naturesaura:sky_ingot",
+            count: 5
+        },
+    });
 });
