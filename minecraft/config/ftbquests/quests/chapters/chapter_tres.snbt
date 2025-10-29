@@ -11,6 +11,7 @@
 			dependencies: ["20351B0AAF511B7F"]
 			id: "376D3A06F73D1797"
 			optional: true
+			subtitle: "Automated storage can happen now"
 			tasks: [{
 				id: "46A80A8E1BF689DC"
 				item: "ae2:controller"
@@ -262,6 +263,11 @@
 		{
 			dependencies: ["5EB69AD53A47EAE3"]
 			id: "1AF85C6F1BF0A72D"
+			rewards: [{
+				id: "67E398EC35EE3588"
+				item: "botania:lexicon"
+				type: "item"
+			}]
 			subtitle: "The petal apothecary is the foundational item in Botania"
 			tasks: [{
 				id: "4B73A5F17C94006B"
@@ -341,6 +347,11 @@
 		{
 			dependencies: ["5EB69AD53A47EAE3"]
 			id: "20351B0AAF511B7F"
+			rewards: [{
+				id: "582250983AAADEE1"
+				item: "ae2:guide"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7F9CE9AA30E3F715"
 				item: "ae2:fluix_crystal"
@@ -766,18 +777,6 @@
 		}
 		{
 			dependencies: ["1AF85C6F1BF0A72D"]
-			id: "419A0BFDCF277563"
-			subtitle: "The Lexica Botania provides a great tutorial for Botania"
-			tasks: [{
-				id: "5DCFBBE30BF50B9B"
-				item: "botania:lexicon"
-				type: "item"
-			}]
-			x: -4.0d
-			y: 4.0d
-		}
-		{
-			dependencies: ["419A0BFDCF277563"]
 			id: "19FFA1649874585F"
 			tasks: [{
 				id: "01DB06F75144683D"
@@ -785,7 +784,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: 6.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["19FFA1649874585F"]
@@ -797,7 +796,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: 8.5d
+			y: 7.0d
 		}
 	]
 	title: "Chapter Tres"

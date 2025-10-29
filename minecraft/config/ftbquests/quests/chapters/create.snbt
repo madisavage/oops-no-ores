@@ -422,6 +422,25 @@
 			x: -5.5d
 			y: -8.5d
 		}
+		{
+			id: "19318AB2B31AB638"
+			subtitle: "The start point of Botania"
+			tasks: [{
+				id: "446FFA0941CCA365"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "botania:mystical_flowers"
+					}
+				}
+				title: "Any #botania:mystical_flowers"
+				type: "item"
+			}]
+			title: "Mystical Flowers"
+			x: -8.0d
+			y: -8.5d
+		}
 	]
 	title: "Chapter One"
 }

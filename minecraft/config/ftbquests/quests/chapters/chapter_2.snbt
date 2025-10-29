@@ -607,6 +607,46 @@
 			x: 12.0d
 			y: 2.5d
 		}
+		{
+			id: "44C73DD03032FEED"
+			tasks: [{
+				id: "32C83546274E0058"
+				title: "TODO fix immersive engineering excavator output"
+				type: "checkmark"
+			}]
+			x: 9.0d
+			y: -2.5d
+		}
+		{
+			id: "1AFBEA2341C7AA65"
+			tasks: [{
+				id: "680C2AD4EB2ACE6A"
+				title: "TODO rewards chapter? + custom item for rewards currency"
+				type: "checkmark"
+			}]
+			x: 11.0d
+			y: -2.5d
+		}
+		{
+			id: "1354EA882FA97647"
+			tasks: [{
+				id: "5536D39DFF2A34A2"
+				title: "scanner mod"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: -2.5d
+		}
+		{
+			id: "572BDB0B67D261C0"
+			tasks: [{
+				id: "2D70B0B2267B1270"
+				title: "structure compass"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: -2.5d
+		}
 	]
 	title: "Chapter 2"
 }
