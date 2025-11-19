@@ -4,7 +4,7 @@
 	filename: "chapter_bee"
 	group: ""
 	id: "64FCA4A76EA2D17E"
-	order_index: 3
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
@@ -100,8 +100,8 @@
 				type: "item"
 			}]
 			title: "Advanced Beehive"
-			x: 1.5d
-			y: 1.5d
+			x: 4.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["07DD9B4D5451E65F"]
@@ -113,7 +113,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: -1.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["07DD9B4D5451E65F"]
@@ -130,8 +130,8 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
-			y: 5.5d
+			x: 4.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["07DD9B4D5451E65F"]
@@ -197,8 +197,8 @@
 				}
 				type: "item"
 			}]
-			x: 6.0d
-			y: 3.5d
+			x: 4.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["07DD9B4D5451E65F"]
@@ -210,7 +210,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: 1.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["07DD9B4D5451E65F"]
@@ -221,8 +221,8 @@
 				item: "productivebees:catcher"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -1.0d
+			x: 3.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["07DD9B4D5451E65F"]
@@ -233,8 +233,8 @@
 				item: "productivebees:catcher"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 3.5d
+			x: 5.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["07DD9B4D5451E65F"]
@@ -245,11 +245,11 @@
 				item: "productivebees:upgrade_simulator"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 1.5d
+			x: 5.5d
+			y: -3.5d
 		}
 		{
-			dependencies: ["2EE8EA517F1C91D0"]
+			dependencies: ["0DFF398BDC661AC9"]
 			id: "6FDEEE6221CCD686"
 			tasks: [{
 				id: "5FCCEAF96154C819"
@@ -257,18 +257,21 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 8.5d
+			y: 4.0d
 		}
 		{
-			dependencies: ["6FDEEE6221CCD686"]
+			dependencies: [
+				"6FDEEE6221CCD686"
+				"2EE8EA517F1C91D0"
+			]
 			id: "7497B4BB13407F86"
 			tasks: [{
 				id: "32F5CDE2EBC34EE7"
 				item: "productivebees:upgrade_productivity"
 				type: "item"
 			}]
-			x: 6.5d
-			y: 8.5d
+			x: 4.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["7497B4BB13407F86"]
@@ -278,8 +281,8 @@
 				item: "productivebees:upgrade_productivity_2"
 				type: "item"
 			}]
-			x: 10.5d
-			y: 8.5d
+			x: 7.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["7C10AD551C9F4891"]
@@ -289,8 +292,8 @@
 				item: "productivebees:upgrade_productivity_3"
 				type: "item"
 			}]
-			x: 10.5d
-			y: 4.0d
+			x: 7.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["69E57B244B4A971A"]
@@ -301,8 +304,8 @@
 				item: "productivebees:upgrade_productivity_4"
 				type: "item"
 			}]
-			x: 10.5d
-			y: -5.5d
+			x: 7.0d
+			y: 0.0d
 		}
 	]
 	title: "Chapter B(ee)"

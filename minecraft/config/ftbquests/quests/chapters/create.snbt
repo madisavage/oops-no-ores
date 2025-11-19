@@ -206,6 +206,11 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "16EEFF6CAA94801F"
+			rewards: [{
+				id: "78DDD6FCA2A0ED8D"
+				item: "ars_nouveau:worn_notebook"
+				type: "item"
+			}]
 			tasks: [{
 				id: "543A6C3AAF9C49DE"
 				item: "ars_nouveau:source_gem"
@@ -237,26 +242,10 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["16EEFF6CAA94801F"]
-			id: "40AB4082C225B2CA"
-			tasks: [
-				{
-					id: "307F99819B97BFBA"
-					item: "ars_nouveau:enchanting_apparatus"
-					type: "item"
-				}
-				{
-					count: 4L
-					id: "6430A71A53C22B19"
-					item: { Count: 4, id: "ars_nouveau:arcane_pedestal" }
-					type: "item"
-				}
+			dependencies: [
+				"4AA9354D25003304"
+				"0D7A088E3FDFCC18"
 			]
-			x: -5.5d
-			y: -1.0d
-		}
-		{
-			dependencies: ["40AB4082C225B2CA"]
 			id: "117021F22F22E525"
 			tasks: [
 				{
@@ -440,6 +429,56 @@
 			title: "Mystical Flowers"
 			x: -8.0d
 			y: -8.5d
+		}
+		{
+			dependencies: ["16EEFF6CAA94801F"]
+			id: "4AA9354D25003304"
+			tasks: [{
+				id: "61E5515F367FAA2D"
+				item: "ars_nouveau:imbuement_chamber"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["16EEFF6CAA94801F"]
+			id: "0D7A088E3FDFCC18"
+			tasks: [{
+				id: "4102CCADE5A206C4"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ars_nouveau:agronomic_sourcelink"
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:volcanic_sourcelink"
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:alchemical_sourcelink"
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:vitalic_sourcelink"
+							}
+							{
+								Count: 1b
+								id: "ars_nouveau:mycelial_sourcelink"
+							}
+						]
+					}
+				}
+				title: "Any Sourcelink"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -1.0d
 		}
 	]
 	title: "Chapter One"

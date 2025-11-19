@@ -23,6 +23,7 @@
 		{
 			dependencies: ["5EB69AD53A47EAE3"]
 			id: "4BFB4114CB6E2005"
+			subtitle: "Good luck; I do not know what is going on"
 			tasks: [{
 				id: "6D232CA6965097A4"
 				item: "bloodmagic:altar"
@@ -105,7 +106,10 @@
 			y: -8.0d
 		}
 		{
-			dependencies: ["4DC8ED0C18C43E4B"]
+			dependencies: [
+				"4DC8ED0C18C43E4B"
+				"02AB2AF8ACA1C63E"
+			]
 			id: "3388C3CA48EDE384"
 			shape: "gear"
 			tasks: [{
@@ -213,13 +217,14 @@
 						]
 					}
 				}
+				title: "Any Dragon Egg"
 				type: "item"
 			}]
 			x: -4.0d
 			y: -4.5d
 		}
 		{
-			dependencies: ["33F958E3CBCDF2D3"]
+			dependencies: ["12DDBA6A9C6EA1F1"]
 			id: "23884A29FBA256BB"
 			shape: "gear"
 			tasks: [{
@@ -246,8 +251,9 @@
 				}
 				type: "item"
 			}]
+			title: "Any Dragonsteel"
 			x: -4.0d
-			y: -7.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["2D6A3DFAAA054DB0"]
@@ -441,11 +447,19 @@
 		{
 			dependencies: ["5EB69AD53A47EAE3"]
 			id: "77D15F9C2CBCF234"
-			tasks: [{
-				id: "288DA0D7BA53B44B"
-				item: "ars_nouveau:ritual_wilden_summon"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "288DA0D7BA53B44B"
+					item: "ars_nouveau:ritual_wilden_summon"
+					type: "item"
+				}
+				{
+					id: "6998F29A9C0BEBE1"
+					item: "ars_nouveau:ritual_brazier"
+					type: "item"
+				}
+			]
+			title: "Wilden Chimera Ritual"
 			x: -2.0d
 			y: 2.0d
 		}
@@ -784,10 +798,10 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: 4.0d
+			y: 5.5d
 		}
 		{
-			dependencies: ["19FFA1649874585F"]
+			dependencies: ["023C0AB60E5C7AB5"]
 			id: "74B9C9F5D9C2FFBC"
 			shape: "gear"
 			tasks: [{
@@ -796,7 +810,166 @@
 				type: "item"
 			}]
 			x: -4.0d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"1446AEDAA12F90A0"
+				"5F8FB00F1472BB69"
+			]
+			id: "023C0AB60E5C7AB5"
+			tasks: [{
+				id: "2263C6D6252D6221"
+				item: "botania:gaia_pylon"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["19FFA1649874585F"]
+			id: "5F8FB00F1472BB69"
+			tasks: [{
+				id: "6F4306ECBED4FFE2"
+				item: "botania:natura_pylon"
+				type: "item"
+			}]
+			x: -3.0d
 			y: 7.0d
+		}
+		{
+			dependencies: ["19FFA1649874585F"]
+			id: "1446AEDAA12F90A0"
+			tasks: [{
+				id: "1CE18979CC9C3AAA"
+				item: "botania:alfheim_portal"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["55661ED61A75DA2B"]
+			id: "770D3D6A4E576470"
+			tasks: [{
+				id: "6EC5CA4DC1E69CD0"
+				item: "bloodmagic:selfsacrificerune"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["55661ED61A75DA2B"]
+			id: "4B334386B996173E"
+			tasks: [{
+				id: "22D9B07FFA419DFE"
+				item: "bloodmagic:daggerofsacrifice"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1F480CFC7DB30687"]
+			id: "3A53467BEDD18FF7"
+			tasks: [{
+				id: "466C1767A59238D4"
+				item: "bloodmagic:blankrune"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4BFB4114CB6E2005"]
+			id: "4734D440FA8C2A71"
+			tasks: [{
+				id: "4BD07E663E730C02"
+				item: {
+					Count: 1
+					id: "bloodmagic:sacrificialdagger"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["39E725F0339F34E0"]
+			id: "621C910B9FFBABC1"
+			tasks: [{
+				id: "15D512FB9E64CD82"
+				item: "bloodmagic:altarcapacityrune"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["55661ED61A75DA2B"]
+			id: "33EC1354128A3777"
+			tasks: [{
+				id: "23930C2EFED2B6D1"
+				item: "bloodmagic:masterritualstone"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["59ADE654759E7318"]
+			id: "02AB2AF8ACA1C63E"
+			tasks: [{
+				id: "22BBA0FEF25E5CA2"
+				item: "bloodmagic:rawdemonite"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["33EC1354128A3777"]
+			id: "59ADE654759E7318"
+			tasks: [{
+				id: "2D0CF6C0CD57D9DD"
+				item: "bloodmagic:mineentrancekey"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["33F958E3CBCDF2D3"]
+			id: "12DDBA6A9C6EA1F1"
+			tasks: [{
+				id: "0110695BC0F2A0F5"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "iceandfire:dragonforge_lightning_core_disabled"
+							}
+							{
+								Count: 1b
+								id: "iceandfire:dragonforge_ice_core_disabled"
+							}
+							{
+								Count: 1b
+								id: "iceandfire:dragonforge_fire_core_disabled"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Dragonforge"
+			x: -4.0d
+			y: -6.0d
 		}
 	]
 	title: "Chapter Tres"
