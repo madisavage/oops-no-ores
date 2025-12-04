@@ -76,6 +76,9 @@
     "jade_chamber": true,
     "jade_wireless": true
   },
+  "functionalstorage": {
+    "armory": true
+  },
   "balm": {
     "jade": true
   },

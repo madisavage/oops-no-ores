@@ -336,7 +336,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 4.0d
+			y: 11.5d
 		}
 		{
 			dependencies: ["49FAE4F290FF3486"]
@@ -466,7 +466,7 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: 4.0d
+			y: 11.5d
 		}
 		{
 			dependencies: ["7B5FF0CD55987833"]
@@ -538,7 +538,7 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: 2.5d
+			y: 12.5d
 		}
 		{
 			dependencies: ["49FAE4F290FF3486"]
@@ -549,7 +549,7 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: 4.5d
+			y: 11.5d
 		}
 		{
 			dependencies: ["48DBEC28B0C7F9F2"]
@@ -582,7 +582,7 @@
 				type: "item"
 			}]
 			x: 12.0d
-			y: 3.5d
+			y: 12.5d
 		}
 		{
 			dependencies: ["6F7D879E97850C69"]
@@ -593,8 +593,8 @@
 				title: "Rat Cheese Production"
 				type: "checkmark"
 			}]
-			x: 12.0d
-			y: 6.5d
+			x: 13.0d
+			y: 12.5d
 		}
 		{
 			dependencies: ["16A16A36AB93321B"]
@@ -605,7 +605,7 @@
 				type: "item"
 			}]
 			x: 12.0d
-			y: 2.5d
+			y: 11.5d
 		}
 		{
 			id: "44C73DD03032FEED"
@@ -646,6 +646,16 @@
 			}]
 			x: 4.0d
 			y: -2.5d
+		}
+		{
+			id: "59638C58ADD02A3F"
+			tasks: [{
+				id: "11502BD082878BDB"
+				title: "require immersive crusher?"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 11.5d
 		}
 	]
 	title: "Chapter 2"

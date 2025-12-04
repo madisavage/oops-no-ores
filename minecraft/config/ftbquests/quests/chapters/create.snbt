@@ -480,6 +480,26 @@
 			x: -6.5d
 			y: -1.0d
 		}
+		{
+			id: "4D43C0A31EA2D183"
+			tasks: [{
+				id: "69FF724481096EFD"
+				title: "impossible lol"
+				type: "checkmark"
+			}]
+			x: -6.5d
+			y: -2.5d
+		}
+		{
+			id: "4174A401D6088AE4"
+			tasks: [{
+				id: "0069CDCB173940A8"
+				title: "mystical petals + lapis = gem"
+				type: "checkmark"
+			}]
+			x: -7.5d
+			y: -2.5d
+		}
 	]
 	title: "Chapter One"
 }
