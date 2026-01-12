@@ -648,13 +648,207 @@
 			y: -2.5d
 		}
 		{
-			id: "59638C58ADD02A3F"
+			id: "43BD3E88A791C3D0"
 			tasks: [{
-				id: "11502BD082878BDB"
-				title: "require immersive crusher?"
+				id: "4C6D492BF04D902C"
+				item: "occultism:datura_seeds"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -1.5d
+		}
+		{
+			id: "0AA695A2AA913C2D"
+			tasks: [{
+				id: "3433379DACF86F8E"
+				item: "occultism:datura"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 0.0d
+		}
+		{
+			id: "561C01CF9102428E"
+			tasks: [{
+				id: "67DCA97D938657E2"
+				item: "occultism:chalk_white_impure"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 1.5d
+		}
+		{
+			id: "037B4F7D10506C6A"
+			tasks: [{
+				id: "32CDB9EF63AF4A96"
+				item: {
+					Count: 1
+					id: "occultism:chalk_white"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -12.0d
+			y: 3.0d
+		}
+		{
+			id: "086F22739B594A3D"
+			tasks: [{
+				id: "73D6E54DB4CD5DE8"
+				title: "crusher"
 				type: "checkmark"
 			}]
-			x: -1.0d
+			x: -12.0d
+			y: 4.5d
+		}
+		{
+			id: "164FDA9367858EC4"
+			tasks: [{
+				id: "63E4406CBF5A90D6"
+				title: "change all these to give raw ore"
+				type: "checkmark"
+			}]
+			x: -10.5d
+			y: 3.0d
+		}
+		{
+			id: "62135FB561218EBF"
+			tasks: [{
+				id: "6A69563D0824C9EE"
+				item: "occultism:iesnium_ingot"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 2.0d
+		}
+		{
+			id: "7B538A550A53B87F"
+			tasks: [
+				{
+					id: "4F5AB6BCE5377010"
+					item: "occultism:storage_controller"
+					type: "item"
+				}
+				{
+					id: "1E8767278E0BEB61"
+					item: "occultism:storage_stabilizer_tier1"
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: 4.0d
+		}
+		{
+			id: "42DC28564D6F9009"
+			tasks: [{
+				id: "356750B6B384DBE8"
+				item: "minecraft:netherrack"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["62FCE46CDD56D5A0"]
+			id: "14B4F90442CF161D"
+			shape: "gear"
+			tasks: [{
+				id: "6540785FFA06B7C9"
+				item: "mekanism:metallurgic_infuser"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["67F9775853E861FB"]
+			id: "62FCE46CDD56D5A0"
+			tasks: [{
+				id: "5CD388D35F278946"
+				item: "immersiveengineering:capacitor_hv"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["3711E726C5625A03"]
+			id: "67F9775853E861FB"
+			tasks: [{
+				id: "5E0218A6B97A277C"
+				title: "squeezer"
+				type: "checkmark"
+			}]
+			x: 8.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["7B5FF0CD55987833"]
+			id: "3711E726C5625A03"
+			tasks: [{
+				id: "5ABF8CDF73118F31"
+				title: "electricity"
+				type: "checkmark"
+			}]
+			x: 8.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["3711E726C5625A03"]
+			id: "5DE7B9B4B0DF3060"
+			tasks: [{
+				id: "0928224D40519B1D"
+				item: "immersiveengineering:diesel_generator"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["3711E726C5625A03"]
+			id: "1795615AD9496F68"
+			tasks: [{
+				id: "0821248A8AB13641"
+				item: "immersiveengineering:lightning_rod"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 11.5d
+		}
+		{
+			id: "4005EBB1CB130861"
+			tasks: [{
+				id: "3D43F7D36D602A12"
+				title: "add recipe"
+				type: "checkmark"
+			}]
+			x: 9.0d
+			y: 15.5d
+		}
+		{
+			id: "75796B04296B9AEB"
+			tasks: [{
+				id: "422C9F74D291C101"
+				title: "remove mekanism power options without infuser reqs"
+				type: "checkmark"
+			}]
+			x: 7.0d
+			y: 15.5d
+		}
+		{
+			dependencies: [
+				"174D73ABF637A148"
+				"7B5FF0CD55987833"
+			]
+			id: "6DDC3310F7E75CDD"
+			tasks: [{
+				id: "28A66AE65660A8D4"
+				item: "botania:manasteel_ingot"
+				type: "item"
+			}]
+			x: 5.5d
 			y: 11.5d
 		}
 	]

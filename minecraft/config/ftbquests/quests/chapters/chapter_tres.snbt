@@ -21,7 +21,10 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["5EB69AD53A47EAE3"]
+			dependencies: [
+				"5EB69AD53A47EAE3"
+				"3D7895591358D9E4"
+			]
 			id: "4BFB4114CB6E2005"
 			subtitle: "Good luck; I do not know what is going on"
 			tasks: [{
@@ -971,6 +974,26 @@
 			title: "Dragonforge"
 			x: -4.0d
 			y: -6.0d
+		}
+		{
+			id: "3D7895591358D9E4"
+			tasks: [{
+				id: "7AE90F0AC6C3809E"
+				item: "botania:terrasteel_ingot"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -3.0d
+		}
+		{
+			id: "7BF155326FECE3AB"
+			tasks: [{
+				id: "28B4011CB484E3B4"
+				title: "make mekanism power require having power"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: 0.0d
 		}
 	]
 	title: "Chapter Tres"

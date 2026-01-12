@@ -188,22 +188,7 @@
 			y: -2.5d
 		}
 		{
-			dependencies: ["02D47C8EC7BB61E6"]
-			id: "03314C4421DF18FF"
-			optional: true
-			tasks: [{
-				id: "0FB1FD80E8B953AF"
-				item: "minecraft:lapis_lazuli"
-				type: "item"
-			}]
-			x: -3.5d
-			y: -2.5d
-		}
-		{
-			dependencies: [
-				"4BAD780E8825D4B8"
-				"03314C4421DF18FF"
-			]
+			dependencies: ["0138625591D39057"]
 			dependency_requirement: "one_completed"
 			id: "16EEFF6CAA94801F"
 			rewards: [{
@@ -217,18 +202,7 @@
 				type: "item"
 			}]
 			x: -5.5d
-			y: -2.5d
-		}
-		{
-			id: "4BAD780E8825D4B8"
-			optional: true
-			tasks: [{
-				id: "5BAB0F0C024A1EA3"
-				item: "minecraft:amethyst_shard"
-				type: "item"
-			}]
-			x: -5.5d
-			y: -4.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["02D47C8EC7BB61E6"]
@@ -239,7 +213,7 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: 1.5d
+			y: 3.0d
 		}
 		{
 			dependencies: [
@@ -265,7 +239,7 @@
 				}
 			]
 			x: -5.5d
-			y: 0.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["117021F22F22E525"]
@@ -278,7 +252,7 @@
 			}]
 			title: "Bulk Haunting"
 			x: -6.5d
-			y: 0.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["117021F22F22E525"]
@@ -289,7 +263,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: 0.5d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -303,7 +277,7 @@
 				type: "item"
 			}]
 			x: -5.5d
-			y: 1.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["6C0577A334D32697"]
@@ -370,8 +344,8 @@
 				item: "create:ochrum"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -3.5d
+			x: -1.0d
+			y: -4.0d
 		}
 		{
 			dependencies: [
@@ -385,8 +359,8 @@
 				item: "create:polished_rose_quartz"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 0.5d
+			x: -1.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["5863B9ED241DA11A"]
@@ -439,7 +413,7 @@
 				type: "item"
 			}]
 			x: -4.5d
-			y: -1.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["16EEFF6CAA94801F"]
@@ -478,27 +452,42 @@
 				type: "item"
 			}]
 			x: -6.5d
-			y: -1.0d
+			y: 0.5d
 		}
 		{
-			id: "4D43C0A31EA2D183"
+			dependencies: [
+				"19318AB2B31AB638"
+				"02D47C8EC7BB61E6"
+			]
+			id: "0138625591D39057"
 			tasks: [{
-				id: "69FF724481096EFD"
-				title: "impossible lol"
+				id: "4735DF1611F2C0ED"
+				title: "Boss Gateway"
 				type: "checkmark"
 			}]
-			x: -6.5d
+			x: -5.5d
 			y: -2.5d
 		}
 		{
-			id: "4174A401D6088AE4"
+			id: "0BE7A8F4B6ED6DFA"
+			subtitle: "tainted gold"
 			tasks: [{
-				id: "0069CDCB173940A8"
-				title: "mystical petals + lapis = gem"
+				id: "4CA1A835B0B36F7A"
+				title: "do recipe"
 				type: "checkmark"
 			}]
-			x: -7.5d
-			y: -2.5d
+			x: -5.0d
+			y: -3.5d
+		}
+		{
+			id: "4D1DFCA3DD9D837E"
+			tasks: [{
+				id: "21BEA735CE1AFFB3"
+				title: "Some occultism rituals available"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: -8.5d
 		}
 	]
 	title: "Chapter One"
